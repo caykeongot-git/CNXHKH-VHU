@@ -1,0 +1,50 @@
+{
+  "subjects": [
+    {
+      "id": "cnxhkh_vhu",
+      "name": "Chủ nghĩa xã hội khoa học - VHU",
+      "chapters": [
+        {
+          "id": "c_all",
+          "title": "Bộ 300 câu tổng hợp",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c1",
+          "title": "Chương 1: Nhập môn Chủ nghĩa xã hội khoa học",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c2",
+          "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c3",
+          "title": "Chương 3: Chủ nghĩa xã hội và thời kỳ quá độ lên CNXH",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c4",
+          "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c5",
+          "title": "Chương 5: Cơ cấu xã hội - giai cấp và liên minh giai cấp",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c6",
+          "title": "Chương 6: Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ",
+          "file": "data/cnxhkh_vhu.json"
+        },
+        {
+          "id": "c7",
+          "title": "Chương 7: Vấn đề gia đình trong thời kỳ quá độ lên CNXH",
+          "file": "data/cnxhkh_vhu.json"
+        }
+      ]
+    }
+  ]
+}

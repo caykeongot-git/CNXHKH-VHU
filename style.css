@@ -1,0 +1,1300 @@
+/* ==========================================================================
+   GLACIER DARK MODE & SKY ICE BLUE LIGHT MODE - HARMONIOUS ADAPTIVE THEME
+   CHXHKH - VHU (300 CÂU TRẮC NGHIỆM - 7 CHƯƠNG)
+   ========================================================================== */
+
+:root {
+  /* Glacier Dark Mode (Ice Blue Theme) */
+  --bg-main: #0b1329;
+  --bg-card: #111c38;
+  --bg-sidebar: #0f1833;
+  --bg-toolbar: #111c38;
+  --border-color: #1e2d52;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --accent-color: #0ea5e9;
+  --accent-hover: #0284c7;
+  --accent-light: rgba(14, 165, 233, 0.18);
+  
+  /* Status Colors Dark */
+  --correct-bg: rgba(5, 150, 105, 0.25);
+  --correct-border: #10b981;
+  --correct-text: #34d399;
+  --wrong-bg: rgba(225, 29, 72, 0.25);
+  --wrong-border: #f43f5e;
+  --wrong-text: #f87171;
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 12px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.5);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --fast-transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+html.light-mode {
+  /* Sky Ice Blue Light Mode (Soft Cloud Blue Background) */
+  --bg-main: #f0f9ff;
+  --bg-card: #ffffff;
+  --bg-sidebar: #ffffff;
+  --bg-toolbar: #ffffff;
+  --border-color: #bae6fd;
+  --text-main: #0c4a6e;
+  --text-muted: #0369a1;
+  --accent-color: #0ea5e9;
+  --accent-hover: #0284c7;
+  --accent-light: #e0f2fe;
+  
+  --correct-bg: #ecfdf5;
+  --correct-border: #10b981;
+  --correct-text: #047857;
+  --wrong-bg: #fff1f2;
+  --wrong-border: #f43f5e;
+  --wrong-text: #be123c;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(14, 165, 233, 0.08);
+  --shadow-md: 0 4px 12px -1px rgba(14, 165, 233, 0.12);
+  --shadow-lg: 0 10px 20px -3px rgba(14, 165, 233, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ice Blue Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.5;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+/* Helper Utilities */
+.hidden {
+  display: none !important;
+}
+
+.text-gold { color: #f59e0b; }
+.text-success { color: var(--correct-text); }
+.text-danger { color: var(--wrong-text); }
+.text-muted { color: var(--text-muted); }
+
+/* App Layout Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Prevent text wrapping on all buttons and labels */
+.btn, .toggle-btn, .btn-text, .switch-label, .timer-badge, .logo-badge, .question-badge {
+  white-space: nowrap !important;
+}
+
+/* ==========================================================================
+   1. HEADER NAVBAR (MODE-ADAPTIVE ELEGANT STYLING)
+   ========================================================================== */
+
+/* Dark Mode Default Header (Sleek Deep Slate Blue) */
+.header {
+  height: 64px;
+  background: #0f172a !important;
+  border-bottom: 1px solid #1e293b !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.logo-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(14, 165, 233, 0.15) !important;
+  color: #38bdf8 !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  font-weight: 800;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap !important;
+}
+
+/* Light Mode Header Overrides (Vibrant Ice Blue Gradient) */
+html.light-mode .header {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.35) !important;
+}
+
+html.light-mode .logo-badge {
+  background: #ffffff !important;
+  color: #0284c7 !important;
+  border: none !important;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subject-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #ffffff !important;
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.header-center {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+}
+
+.progress-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.progress-bar-bg {
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00f2fe, #38bdf8) !important;
+  border-radius: var(--radius-full);
+  transition: width 0.25s ease-out;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Prominent Amber Gold Exam Countdown Badge */
+.timer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  color: #ffffff !important;
+  padding: 6px 10px;
+  border-radius: var(--radius-md);
+  font-weight: 800;
+  font-size: 0.9rem !important;
+  border: 1px solid #b45309 !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+  white-space: nowrap !important;
+  animation: pulseTimer 2s infinite ease-in-out;
+}
+
+@keyframes pulseTimer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+/* Submit Exam Button */
+.btn-submit-exam, #btnSubmitExam {
+  background: linear-gradient(135deg, #f97316, #ea580c) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  box-shadow: 0 3px 10px rgba(249, 115, 22, 0.4) !important;
+  padding: 8px 14px !important;
+  white-space: nowrap !important;
+}
+
+.btn-submit-exam:active, #btnSubmitExam:active {
+  transform: scale(0.96);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: none;
+  transition: var(--fast-transition);
+  outline: none;
+  user-select: none;
+  min-height: 38px;
+  white-space: nowrap !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ffffff, #e0f2fe) !important;
+  color: #0284c7 !important;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-secondary {
+  background-color: var(--border-color);
+  color: var(--text-main);
+}
+
+.btn-danger {
+  background-color: var(--wrong-border);
+  color: #ffffff;
+}
+
+/* Harmonious Glacier Cyan Reset Button (#btnResetProgress) */
+.btn-outline-danger, #btnResetProgress {
+  background: rgba(14, 165, 233, 0.1) !important;
+  color: #38bdf8 !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.btn-outline-danger:active, #btnResetProgress:active {
+  background: rgba(14, 165, 233, 0.25) !important;
+  border-color: #38bdf8 !important;
+}
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  font-size: 1rem;
+}
+
+.btn-icon:active {
+  transform: scale(0.95);
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.btn-mobile-grid {
+  display: none;
+}
+
+/* ==========================================================================
+   2. TOOLBAR
+   ========================================================================== */
+.toolbar-container {
+  background-color: var(--bg-toolbar);
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 24px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.toggle-group {
+  display: flex;
+  background-color: var(--bg-main);
+  padding: 3px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  white-space: nowrap !important;
+  box-sizing: border-box;
+  overflow: hidden;
+  gap: 2px;
+}
+
+.toggle-btn {
+  padding: 6px 14px;
+  border-radius: calc(var(--radius-md) - 3px);
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: var(--fast-transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 34px;
+  white-space: nowrap !important;
+  flex: 1 1 auto;
+}
+
+.toggle-btn.active {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(14, 165, 233, 0.3);
+}
+
+.toolbar-divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--border-color);
+}
+
+/* Switches */
+.switch-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  min-height: 38px;
+  white-space: nowrap !important;
+}
+
+.switch-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  white-space: nowrap !important;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: var(--border-color);
+  transition: background-color 0.2s ease;
+  border-radius: 22px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: transform 0.2s ease;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--accent-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(18px);
+}
+
+/* Select dropdown */
+.filter-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 4px 12px;
+  min-height: 38px;
+  white-space: nowrap !important;
+}
+
+.filter-icon {
+  color: var(--accent-color);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.custom-select {
+  background: transparent;
+  border: none;
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 0.85rem;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap !important;
+}
+
+.custom-select option {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+}
+
+/* ==========================================================================
+   3. MAIN LAYOUT & QUESTIONS SCROLL VIEW
+   ========================================================================== */
+.main-layout {
+  display: flex;
+  flex: 1;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  gap: 24px;
+}
+
+.questions-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Question Card & Active Glowing Ice Blue Border */
+.question-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  scroll-margin-top: 80px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  
+  content-visibility: auto;
+  contain-intrinsic-size: 160px;
+  contain: content;
+}
+
+/* Active Focused Question Card (Glowing Ice Blue) */
+.question-card.active-focused {
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 16px rgba(14, 165, 233, 0.6) !important;
+}
+
+.question-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.question-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--accent-light);
+  color: var(--accent-color);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap !important;
+}
+
+.wrong-bookmark-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 4px 8px;
+  transition: var(--fast-transition);
+}
+
+.wrong-bookmark-btn.active {
+  color: var(--wrong-border);
+}
+
+.question-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Options Container */
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-main);
+  cursor: pointer;
+  user-select: none;
+  min-height: 44px;
+  transition: background-color 0.1s ease, border-color 0.1s ease;
+}
+
+.option-item:active:not(.disabled) {
+  background-color: var(--accent-light);
+  border-color: var(--accent-color);
+}
+
+.option-key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.option-text {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  flex: 1;
+  line-height: 1.45;
+}
+
+/* Selected / Answer States */
+.option-item.selected {
+  border-color: var(--accent-color);
+  background-color: var(--accent-light);
+}
+
+.option-item.selected .option-key {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.option-item.correct {
+  border-color: var(--correct-border) !important;
+  background-color: var(--correct-bg) !important;
+}
+
+.option-item.correct .option-key {
+  background-color: var(--correct-border) !important;
+  color: #ffffff !important;
+}
+
+.option-item.correct .option-text {
+  color: var(--correct-text);
+  font-weight: 600;
+}
+
+.option-item.wrong {
+  border-color: var(--wrong-border) !important;
+  background-color: var(--wrong-bg) !important;
+}
+
+.option-item.wrong .option-key {
+  background-color: var(--wrong-border) !important;
+  color: #ffffff !important;
+}
+
+.option-item.wrong .option-text {
+  color: var(--wrong-text);
+}
+
+/* Explanation Box */
+.explanation-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  background-color: var(--accent-light);
+  border-left: 4px solid var(--accent-color);
+  font-size: 0.875rem;
+  color: var(--text-main);
+}
+
+/* ==========================================================================
+   4. SIDEBAR - QUESTION GRID NAVIGATION & QUICK ANSWER SHEET
+   ========================================================================== */
+.sidebar-section {
+  width: 330px;
+  background-color: var(--bg-sidebar);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: calc(100vh - 100px);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-main);
+}
+
+.btn-close-drawer {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.sidebar-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.stat-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 4px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+}
+
+.stat-num {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.stat-lbl {
+  font-size: 0.725rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.stat-total .stat-num { color: var(--accent-color); }
+.stat-correct .stat-num { color: var(--correct-border); }
+.stat-wrong .stat-num { color: var(--wrong-border); }
+
+/* Sidebar Tabs */
+.sidebar-tabs {
+  display: flex;
+  background-color: var(--bg-main);
+  padding: 4px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  gap: 6px;
+}
+
+.sidebar-tab {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.775rem;
+  font-weight: 700;
+  border-radius: calc(var(--radius-md) - 2px);
+  cursor: pointer;
+  transition: var(--fast-transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap !important;
+}
+
+.sidebar-tab.active {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Grid 1..300 */
+.grid-container {
+  overflow-y: auto;
+  padding-right: 4px;
+  max-height: calc(100vh - 280px);
+}
+
+.question-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.grid-item {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+  min-height: 36px;
+  transition: transform 0.1s ease;
+}
+
+.grid-item:active {
+  transform: scale(0.92);
+}
+
+.grid-item.answered {
+  background-color: var(--accent-light);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.grid-item.correct {
+  background-color: var(--correct-bg);
+  border-color: var(--correct-border);
+  color: var(--correct-border);
+}
+
+.grid-item.wrong {
+  background-color: var(--wrong-bg);
+  border-color: var(--wrong-border);
+  color: var(--wrong-border);
+}
+
+/* Bảng Đáp Án Nhanh (Quick Answer Sheet: 1A 2B 3C...) */
+.answer-key-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.answer-key-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 6px 2px;
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.775rem;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+.answer-key-item .ak-num {
+  color: var(--text-muted);
+}
+
+.answer-key-item .ak-ans {
+  color: var(--accent-color);
+  font-weight: 800;
+}
+
+/* Floating Scroll-To-Top Button */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-color), #0284c7);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 14px rgba(14, 165, 233, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  z-index: 80;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.scroll-top-btn:active {
+  transform: scale(0.9);
+}
+
+/* ==========================================================================
+   5. MODAL RESULT & CUSTOM CONFIRMATION MODAL
+   ========================================================================== */
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 16px;
+}
+
+.modal-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 440px;
+  padding: 24px;
+  box-shadow: var(--shadow-lg);
+}
+
+/* Custom Confirmation Modal */
+.modal-confirm {
+  text-align: center;
+  max-width: 380px;
+  padding: 28px 24px;
+}
+
+.confirm-icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--wrong-bg);
+  color: var(--wrong-border);
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.confirm-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.confirm-msg {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+  line-height: 1.45;
+}
+
+.confirm-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.confirm-actions .btn {
+  flex: 1;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.result-score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-light), var(--bg-main));
+  border: 4px solid var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.score-val {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--accent-color);
+}
+
+.score-sub {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.result-msg {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+}
+
+.result-details {
+  background-color: var(--bg-main);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.modal-footer {
+  display: flex;
+  gap: 12px;
+}
+
+.modal-footer .btn {
+  flex: 1;
+}
+
+/* ==========================================================================
+   6. RESPONSIVE DESIGN FOR MOBILE: ULTRA-SLIM BOTTOM NAVBAR WITH THEME TOGGLE
+   ========================================================================== */
+@media (max-width: 992px) {
+  /* Move Header to Bottom Navigation Bar on Mobile with Safe Area Padding */
+  .header {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto !important;
+    min-height: 58px !important;
+    max-height: 58px !important;
+    background: rgba(15, 23, 42, 0.96) !important;
+    border-top: 1px solid #1e293b !important;
+    border-bottom: none !important;
+    z-index: 95;
+    padding: 0 8px !important;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 10px)) !important;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    gap: 6px !important;
+  }
+
+  html.light-mode .header {
+    background: rgba(255, 255, 255, 0.96) !important;
+    border-top: 1px solid #bae6fd !important;
+    box-shadow: 0 -4px 20px rgba(14, 165, 233, 0.15) !important;
+  }
+
+  html.light-mode .logo-badge {
+    background: #e0f2fe !important;
+    color: #0284c7 !important;
+    border: 1px solid #bae6fd !important;
+  }
+
+  .header-left, .header-right {
+    display: contents !important;
+  }
+  
+  .subject-title, .header-center {
+    display: none !important;
+  }
+
+  /* 1. Timer Badge (Order 1) */
+  .timer-badge {
+    order: 1 !important;
+    padding: 4px 8px !important;
+    font-size: 0.775rem !important;
+    gap: 3px !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+    background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    border: 1px solid #b45309 !important;
+    box-shadow: 0 2px 6px rgba(245, 158, 11, 0.4) !important;
+  }
+
+  /* 2. Logo MOSHI Quiz (Order 2) */
+  .logo-badge {
+    order: 2 !important;
+    position: static !important;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 4px 8px !important;
+    font-size: 0.775rem !important;
+    white-space: nowrap !important;
+    box-shadow: none !important;
+  }
+
+  /* 3. Grid Icon (Order 3) */
+  .btn-mobile-grid {
+    order: 3 !important;
+    display: inline-flex !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: var(--border-color) !important;
+    color: var(--text-main) !important;
+    border: none !important;
+    border-radius: var(--radius-md) !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* 4. Theme Toggle Icon Button (Order 4) */
+  #btnToggleTheme {
+    order: 4 !important;
+    display: inline-flex !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: var(--border-color) !important;
+    color: var(--text-main) !important;
+    border: none !important;
+    border-radius: var(--radius-md) !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* 5. Submit Exam Icon Button (Order 5) */
+  .btn-submit-exam, #btnSubmitExam {
+    order: 5 !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    padding: 0 !important;
+    border-radius: var(--radius-md) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: linear-gradient(135deg, #f97316, #ea580c) !important;
+    box-shadow: 0 2px 8px rgba(249, 115, 22, 0.4) !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  .btn-submit-exam .btn-text, #btnSubmitExam .btn-text {
+    display: none !important;
+  }
+  
+  .sidebar-section {
+    position: fixed;
+    top: 0; right: -350px; bottom: 60px;
+    width: 320px;
+    height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px);
+    border-radius: 0;
+    z-index: 90;
+    transition: right 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -4px 0 20px rgba(0,0,0,0.4);
+  }
+  
+  .sidebar-section.open {
+    right: 0;
+  }
+  
+  .btn-close-drawer {
+    display: block;
+  }
+  
+  .grid-container {
+    max-height: calc(100vh - 240px);
+  }
+  
+  .main-layout {
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+  
+  .scroll-top-btn {
+    bottom: 70px;
+    right: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .logo-text {
+    font-size: 0.825rem;
+  }
+  
+  .progress-box {
+    display: none;
+  }
+  
+  /* Mobile Dynamic Island Top Padding */
+  .toolbar-container {
+    padding: 10px 12px !important;
+    padding-top: calc(44px + env(safe-area-inset-top, 20px)) !important;
+  }
+  
+  /* Flexible Wrap Toolbar for Mobile */
+  .toolbar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chapter-select-wrapper {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
+
+  .chapter-select-wrapper .custom-select {
+    width: 100% !important;
+  }
+  
+  .toggle-group {
+    display: flex !important;
+    flex: 1 1 48% !important;
+    width: 48% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .toggle-btn {
+    flex: 1 1 0% !important;
+    padding: 6px 6px !important;
+    font-size: 0.775rem !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+  }
+
+  .filter-dropdown {
+    flex: 1 1 48% !important;
+    width: 48% !important;
+    justify-content: center !important;
+  }
+  
+  .toolbar-divider {
+    display: none !important;
+  }
+
+  .switch-item {
+    flex: 1 1 48% !important;
+  }
+
+  /* Compact 50-50 Reset Button on Mobile */
+  .btn-outline-danger, #btnResetProgress {
+    flex: 1 1 48% !important;
+    width: 48% !important;
+    padding: 6px 10px !important;
+    font-size: 0.775rem !important;
+  }
+
+  .toggle-btn span, .btn-outline-danger span {
+    font-size: 0.775rem;
+  }
+  
+  .main-layout {
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+  
+  .question-card {
+    padding: 16px;
+    border-radius: var(--radius-md);
+  }
+  
+  .question-title {
+    font-size: 0.95rem;
+  }
+}

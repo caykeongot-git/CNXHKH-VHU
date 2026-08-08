@@ -1,0 +1,15 @@
+# Ignore Microsoft Word documents
+*.docx
+*.doc
+
+# Scratch & Temporary files
+scratch/
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
+
+# IDE & Editor files
+.vscode/
+.idea/

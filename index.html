@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Ôn Thi CNXHKH - VHU (300 Câu Trắc Nghiệm - 7 Chương)</title>
+  <meta name="description" content="Ứng dụng Ôn thi Trắc nghiệm môn Chủ nghĩa xã hội khoa học (300 câu chia 7 chương) dành cho sinh viên VHU. Tích hợp Glacier Dark Mode, chế độ Thi thử, Bảng đáp án nhanh, Sổ tay câu sai.">
+  
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div id="app" class="app-container">
+    <!-- Header Navbar -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo-badge">
+          <i class="fa-solid fa-graduation-cap logo-icon"></i>
+          <span class="logo-text">MOSHI Quiz</span>
+        </div>
+        <h1 class="subject-title" id="subjectTitle">Chủ nghĩa xã hội khoa học</h1>
+      </div>
+
+      <div class="header-center">
+        <div class="progress-box">
+          <div class="progress-info">
+            <span id="progressText">Đã làm: 0 / 300</span>
+            <span id="progressPercent">0%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progressBarFill"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <!-- Timer (for Exam Mode) -->
+        <div class="timer-badge hidden" id="timerBadge">
+          <i class="fa-regular fa-clock"></i>
+          <span id="timerText">20:00</span>
+        </div>
+
+        <!-- Submit Exam Button -->
+        <button class="btn btn-submit-exam hidden" id="btnSubmitExam">
+          <i class="fa-solid fa-paper-plane"></i> <span class="btn-text">Nộp Bài</span>
+        </button>
+
+        <!-- Toggle Mobile Grid Drawer -->
+        <button class="btn btn-icon btn-mobile-grid" id="btnToggleMobileGrid" title="Bảng số câu & Đáp án">
+          <i class="fa-solid fa-th"></i>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="btn btn-icon" id="btnToggleTheme" title="Đổi giao diện">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Toolbar Options -->
+    <div class="toolbar-container">
+      <div class="toolbar">
+        <!-- Chapter Selector Dropdown (First Position) -->
+        <div class="filter-dropdown chapter-select-wrapper">
+          <i class="fa-solid fa-layer-group filter-icon"></i>
+          <select id="chapterSelect" class="custom-select">
+            <option value="all">Tất cả 7 Chương (300 câu)</option>
+            <option value="c1">Chương 1: Nhập môn CNXHKH (Câu 1-40)</option>
+            <option value="c2">Chương 2: Sứ mệnh GCCN (Câu 41-85)</option>
+            <option value="c3">Chương 3: CNXH & Thời kỳ quá độ (Câu 86-130)</option>
+            <option value="c4">Chương 4: Dân chủ & Nhà nước XHCN (Câu 131-175)</option>
+            <option value="c5">Chương 5: Cơ cấu xã hội - giai cấp (Câu 176-215)</option>
+            <option value="c6">Chương 6: Dân tộc & Tôn giáo (Câu 216-260)</option>
+            <option value="c7">Chương 7: Vấn đề Gia đình (Câu 261-300)</option>
+          </select>
+        </div>
+
+        <div class="toolbar-divider"></div>
+
+        <!-- Mode Switcher (Second Position) -->
+        <div class="toggle-group">
+          <button class="toggle-btn active" id="btnModePractice">
+            <i class="fa-solid fa-book-open"></i> <span>Luyện tập</span>
+          </button>
+          <button class="toggle-btn" id="btnModeExam">
+            <i class="fa-solid fa-stopwatch"></i> <span>Thi thử</span>
+          </button>
+        </div>
+
+        <div class="toolbar-divider"></div>
+
+        <!-- Option Switches -->
+        <div class="switch-item" id="switchShowAnswersWrapper">
+          <label class="switch">
+            <input type="checkbox" id="chkShowAnswers" checked>
+            <span class="slider round"></span>
+          </label>
+          <span class="switch-label">Hiện đáp án</span>
+        </div>
+
+        <div class="switch-item" id="switchAutoNextWrapper">
+          <label class="switch">
+            <input type="checkbox" id="chkAutoNext">
+            <span class="slider round"></span>
+          </label>
+          <span class="switch-label">Tự chuyển câu</span>
+        </div>
+
+        <div class="toolbar-divider"></div>
+
+        <!-- Question Filter -->
+        <div class="filter-dropdown">
+          <i class="fa-solid fa-filter filter-icon"></i>
+          <select id="filterSelect" class="custom-select">
+            <option value="all">Tất cả câu</option>
+            <option value="unanswered">Chưa làm</option>
+            <option value="wrong">Sổ tay câu sai (0)</option>
+          </select>
+        </div>
+
+        <!-- Reset Progress Button -->
+        <button class="btn btn-outline-danger" id="btnResetProgress" title="Làm lại từ đầu">
+          <i class="fa-solid fa-arrow-rotate-left"></i> <span>Làm lại</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Content Layout -->
+    <main class="main-layout">
+      <!-- Left Column: Question Scroll View -->
+      <section class="questions-section">
+        <div id="questionsContainer" class="questions-list">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </section>
+
+      <!-- Right Column / Drawer: Question Grid & Quick Answer Key Navigation -->
+      <aside class="sidebar-section" id="sidebarSection">
+        <div class="sidebar-header">
+          <h3><i class="fa-solid fa-list-ol"></i> Bảng Số Câu & Đáp Án</h3>
+          <button class="btn-close-drawer" id="btnCloseDrawer"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="sidebar-stats">
+          <div class="stat-pill stat-total">
+            <span class="stat-num" id="statTotal">300</span>
+            <span class="stat-lbl">Tổng số</span>
+          </div>
+          <div class="stat-pill stat-correct">
+            <span class="stat-num" id="statCorrect">0</span>
+            <span class="stat-lbl">Đúng</span>
+          </div>
+          <div class="stat-pill stat-wrong">
+            <span class="stat-num" id="statWrong">0</span>
+            <span class="stat-lbl">Sai</span>
+          </div>
+        </div>
+
+        <!-- Tabs inside Sidebar: Question Grid vs Quick Answer Sheet -->
+        <div class="sidebar-tabs">
+          <button class="sidebar-tab active" id="tabGrid"><i class="fa-solid fa-border-all"></i> Bảng Số Câu</button>
+          <button class="sidebar-tab" id="tabAnswerKey"><i class="fa-solid fa-key"></i> Bảng Đáp Án Nhanh</button>
+        </div>
+
+        <div class="grid-container" id="gridTabContent">
+          <div class="question-grid" id="questionGrid">
+            <!-- Rendered 1..300 dynamically -->
+          </div>
+        </div>
+
+        <div class="grid-container hidden" id="answerKeyTabContent">
+          <div class="answer-key-grid" id="answerKeyGrid">
+            <!-- Rendered Quick Answer Sheet e.g. 1A 2B 3C dynamically -->
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Floating Scroll-To-Top Button -->
+    <button class="scroll-top-btn hidden" id="btnScrollTop" title="Về đầu trang">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- Custom Confirmation Modal (Replaces browser confirm alert) -->
+  <div class="modal-backdrop hidden" id="confirmModal">
+    <div class="modal-card modal-confirm">
+      <div class="confirm-icon-box">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+      </div>
+      <h3 class="confirm-title" id="confirmTitle">Xác nhận làm lại bài?</h3>
+      <p class="confirm-msg" id="confirmMsg">Toàn bộ tiến độ bài làm hiện tại sẽ bị xoá để bạn bắt đầu lại từ đầu.</p>
+      <div class="confirm-actions">
+        <button class="btn btn-secondary" id="btnConfirmCancel">Hủy bỏ</button>
+        <button class="btn btn-danger" id="btnConfirmOk">Đồng ý làm lại</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exam Result Modal -->
+  <div class="modal-backdrop hidden" id="resultModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2><i class="fa-solid fa-trophy text-gold"></i> Kết Quả Bài Thi Thử</h2>
+        <button class="modal-close" id="btnCloseModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="result-score-circle" id="scoreCircle">
+          <span class="score-val" id="scorePercent">0%</span>
+          <span class="score-sub" id="scoreFraction">0/300 câu đúng</span>
+        </div>
+        <p class="result-msg" id="resultMsg">Hoàn thành tuyệt vời!</p>
+        <div class="result-details">
+          <div class="detail-row">
+            <span>Thời gian làm bài:</span>
+            <strong id="timeSpentText">00:00</strong>
+          </div>
+          <div class="detail-row">
+            <span>Số câu đúng:</span>
+            <strong class="text-success" id="correctCountText">0</strong>
+          </div>
+          <div class="detail-row">
+            <span>Số câu sai:</span>
+            <strong class="text-danger" id="wrongCountText">0</strong>
+          </div>
+          <div class="detail-row">
+            <span>Chưa trả lời:</span>
+            <strong class="text-muted" id="unansweredCountText">0</strong>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="btnReviewExam">Xem chi tiết bài làm</button>
+        <button class="btn btn-primary" id="btnRestartExam">Làm đề khác</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
