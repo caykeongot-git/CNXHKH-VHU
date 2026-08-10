@@ -1,9 +1,9 @@
 {
   "subject_id": "cnxhkh_vhu",
-  "subject_name": "CNXHKH - VHU (300 Câu)",
+  "subject_name": "CNXHKH - VHU (256 Câu)",
   "chapter_id": "c_all",
-  "chapter_title": "Bộ 300 câu trắc nghiệm tổng hợp VHU",
-  "total_questions": 300,
+  "chapter_title": "Bộ 256 câu trắc nghiệm tổng hợp VHU (Đã làm sạch câu trùng)",
+  "total_questions": 256,
   "questions": [
     {
       "id": 1,
@@ -202,32 +202,6 @@
     },
     {
       "id": 16,
-      "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là các dân tộc có quyền:",
-      "options": {
-        "A": "Tự quyết.",
-        "B": "Khuyến khích tích tụ tư bản tư nhân",
-        "C": "Sự suy thoái của nền kinh tế thị trường",
-        "D": "Sự phát triển của tư tưởng cải lương"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c1"
-    },
-    {
-      "id": 17,
-      "question": "Một trong ba nội dung cơ bản trong “cương lĩnh dân tộc” của Lênin là liên hiệp giai cấp công nhân với:",
-      "options": {
-        "A": "Tầng lớp thương nhân",
-        "B": "Giai cấp phong kiến",
-        "C": "Tất cả các dân tộc.",
-        "D": "Giai cấp tư sản"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c1"
-    },
-    {
-      "id": 18,
       "question": "Về bản chất, tôn giáo là một hiện tượng xã hội phản ánh điều gì của con người trước tự nhiên và xã hội?",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -240,7 +214,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 19,
+      "id": 17,
       "question": "Đặc trưng bản chất của dân chủ xã hội chủ nghĩa là bảo đảm mọi quyền lực đều thuộc về lực lượng nào?",
       "options": {
         "A": "Tầng lớp thương nhân",
@@ -253,7 +227,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 20,
+      "id": 18,
       "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết giữa các tôn giáo là một vấn đề:",
       "options": {
         "A": "Sự suy thoái của nền kinh tế thị trường",
@@ -266,7 +240,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 21,
+      "id": 19,
       "question": "Cách mạng xã hội chủ nghĩa do giai cấp, tầng lớp nào lãnh đạo?",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -279,7 +253,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 22,
+      "id": 20,
       "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành đặc điểm nào ở giai cấp công nhân?",
       "options": {
         "A": "Giai cấp nông dân",
@@ -292,7 +266,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 23,
+      "id": 21,
       "question": "Để sứ mệnh lịch sử của giai cấp công nhân từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -305,7 +279,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 24,
+      "id": 22,
       "question": "Chủ nghĩa xã hội từng bước tiến tới thực hiện mục tiêu cao cả nhất, biến con người từ vương quốc của tất yếu sang:",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -318,7 +292,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 25,
+      "id": 23,
       "question": "Trong thời kỳ quá độ, kết cấu giai cấp xã hội đa dạng gồm giai cấp công nhân, nông dân, tầng lớp trí thức và:",
       "options": {
         "A": "Những tầng lớp lao động khác.",
@@ -331,7 +305,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 26,
+      "id": 24,
       "question": "Quan niệm cơ bản của Chủ nghĩa  Mác-Lênin là dân chủ với tư cách  một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
       "options": {
         "A": "Tầng lớp thương nhân",
@@ -344,7 +318,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 27,
+      "id": 25,
       "question": "V. I. Lênin cho rằng, chế độ dân chủ là một hình thức nhà nước. Cho nên, dân chủ là việc thi hành có tổ chức, có hệ thống. Nhằm:",
       "options": {
         "A": "Thỏa hiệp chính trị",
@@ -357,7 +331,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 28,
+      "id": 26,
       "question": "Cơ sở kinh tế của nền dân chủ xã hội chủ nghĩa là gì?",
       "options": {
         "A": "Sản xuất hàng hóa nhỏ",
@@ -370,7 +344,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 29,
+      "id": 27,
       "question": "Nền dân chủ xã hội chủ nghĩa là một nền dân chủ rộng rãi nhất trong lịch sử, nhưng phải đảm bảo:",
       "options": {
         "A": "Là nền dân chủ mang tính giai cấp.",
@@ -383,7 +357,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 30,
+      "id": 28,
       "question": "Nhà nước xã hội chủ nghĩa là một tổ chức chính trị dựa trên cơ sở kinh tế:",
       "options": {
         "A": "Kinh tế tự nhiên tự cấp tự túc",
@@ -396,7 +370,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 31,
+      "id": 29,
       "question": "Chức năng, nhiệm vụ của nhà nước xã hội chủ nghĩa biểu hiện tâp chung ở việc quản lý xã hội trên tất cả các lĩnh vực bằng:",
       "options": {
         "A": "Thương lượng ôn hòa",
@@ -409,7 +383,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 32,
+      "id": 30,
       "question": "Để mở rộng dân chủ, kiên quyết đấu tranh chống lại mọi hành vi đi ngược lại những chuẩn mực dân chủ, đòi hỏi phải có một thiết chế phù hợp đó là:",
       "options": {
         "A": "Nền kinh tế hàng hóa giản đơn",
@@ -422,7 +396,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 33,
+      "id": 31,
       "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -435,20 +409,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 34,
-      "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước xã hội chủ nghĩa thì nhà nước có chức năng nào?",
-      "options": {
-        "A": "Chế độ phong kiến tập quyền",
-        "B": "Chủ nghĩa tư bản tự do cạnh tranh",
-        "C": "Chức năng đối nội.",
-        "D": "Chế độ chiếm hữu nô lệ"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c1"
-    },
-    {
-      "id": 35,
+      "id": 32,
       "question": "Đâu là yếu tố cơ bản để giai cấp công nhân Việt Nam gắn bó mật thiết với các tầng lớp nhân dân trong xã hội?",
       "options": {
         "A": "Thống nhất cao về lợi ích.",
@@ -461,7 +422,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 36,
+      "id": 33,
       "question": "Đâu là những biến đổi của giai cấp công nhân Việt Nam từ sau đổi mới năm 1986?",
       "options": {
         "A": "Đi đầu trong công nghiệp hóa, hiện đại hóa đất nước.",
@@ -474,7 +435,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 37,
+      "id": 34,
       "question": "Điểm then chốt để thực hiện thành công sứ mệnh lịch sử của giai cấp công nhân Việt Nam là gì?",
       "options": {
         "A": "Tầng lớp trí thức",
@@ -487,7 +448,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 38,
+      "id": 35,
       "question": "Ý thức tôn giáo là niềm tin của một bộ phận nhân dân, là yếu tố bền vững nhất trong đời sống tinh thần, đó là nguyên nhân gì của sự tồn tại tôn giáo?",
       "options": {
         "A": "Tâm lý.",
@@ -500,7 +461,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 39,
+      "id": 36,
       "question": "Giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội cần dựa trên nguyên tắc là khắc phục dần những tiêu cực của tôn giáo phải gắn liền với quá trình cải tạo xã hội cũ và xây dựng:",
       "options": {
         "A": "Xã hội mới.",
@@ -513,7 +474,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 40,
+      "id": 37,
       "question": "Một nguyên tắc giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội là cần phân biệt rõ hai mặt:",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -526,7 +487,7 @@
       "chapter_id": "c1"
     },
     {
-      "id": 41,
+      "id": 38,
       "question": "Nhà nước ra đời do :",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -539,7 +500,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 42,
+      "id": 39,
       "question": "Đến một giai đoạn mà xã hội không còn giai cấp, không còn đấu tranh giai cấp thì :",
       "options": {
         "A": "Tầng lớp thương nhân",
@@ -552,7 +513,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 43,
+      "id": 40,
       "question": "Loài người đã trải qua các hình thức cộng đồng từ thấp đến cao:",
       "options": {
         "A": "Thị tộc, bộ lạc, bộ tộc và dân tộc.",
@@ -565,7 +526,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 44,
+      "id": 41,
       "question": "Giai cấp công nhân Việt Nam ra đời vào thời kỳ nào?",
       "options": {
         "A": "Thực dân Pháp khai thác thuộc địa lần thứ nhất.",
@@ -578,7 +539,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 45,
+      "id": 42,
       "question": "Chế độ dân chủ  xã hội chủ nghĩa là một chế độ dân chủ:",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -591,7 +552,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 46,
+      "id": 43,
       "question": "Phạm trù nào được coi là cơ bản nhất, là xuất phát điểm của chủ nghĩa xã hội khoa học?",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -604,7 +565,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 47,
+      "id": 44,
       "question": "Thời kỳ quá độ lên chủ nghĩa xã hội là tất yếu đối với:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -617,7 +578,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 48,
+      "id": 45,
       "question": "Xây dựng nhà nước pháp quyền xã hội chủ nghĩa ở nước ta hiện nay cần:",
       "options": {
         "A": "Xây dựng hệ thống pháp luật hoàn chỉnh.",
@@ -630,7 +591,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 49,
+      "id": 46,
       "question": "Điền từ còn thiếu: “Các giai cấp khác đều suy tàn và tiêu vong cùng với sự phát triển của đại công nghiệp, còn........lại là sản phẩm của bản thân nền đại công nghiệp”.",
       "options": {
         "A": "Tầng lớp trí thức",
@@ -643,7 +604,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 50,
+      "id": 47,
       "question": "Đâu là đáp án sai khi nói về giai cấp công nhân hiện nay?",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -656,7 +617,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 51,
+      "id": 48,
       "question": "Chức năng cơ bản của nhà nước là:",
       "options": {
         "A": "Chức năng đối nội, chức năng đối ngoại.",
@@ -669,7 +630,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 52,
+      "id": 49,
       "question": "Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam là nhà nước pháp quyền mang bản chất gì?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -682,7 +643,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 53,
+      "id": 50,
       "question": "Tính chất cách mạng triệt để của sứ mệnh lịch sử giai cấp công nhân thể hiện ở chỗ nào?",
       "options": {
         "A": "Giải phóng giai cấp công nhân đồng thời giải phóng toàn thể nhân dân lao động khỏi mọi sự áp bức, bóc lột.",
@@ -695,7 +656,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 54,
+      "id": 51,
       "question": "Kiểu nhà nước nào sau đây được Lênin gọi là nhà nước “Nửa nhà nước”?",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -708,7 +669,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 55,
+      "id": 52,
       "question": "Tìm ra điểm khác biệt của giai cấp công nhân hiện nay với giai cấp",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -721,7 +682,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 56,
+      "id": 53,
       "question": "Xác định đáp án nào không phải điều kiện khách quan quy định sứ mệnh",
       "options": {
         "A": "Nền kinh tế hàng hóa giản đơn",
@@ -734,7 +695,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 57,
+      "id": 54,
       "question": "Chọn từ thích hợp điền vào chỗ trống trong câu nói của Mác – Ăng- ghen “Sự sụp đổ của giai cấp tư sản và thắng lợi của giai cấp vô sản đều ………. như nhau”.",
       "options": {
         "A": "Tất yếu",
@@ -747,7 +708,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 58,
+      "id": 55,
       "question": "Thành phần kinh tế nhà nước là thành phần kinh tế chủ đạo trong thời kỳ quá độ lên CNXH vì:",
       "options": {
         "A": "Kinh tế tự nhiên tự cấp tự túc",
@@ -760,7 +721,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 59,
+      "id": 56,
       "question": "Quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa là bỏ qua yếu tố nào của chủ nghĩa tư bản?",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -773,7 +734,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 60,
+      "id": 57,
       "question": "Sứ mệnh lịch sử của giai cấp công nhân do các yếu tố khách quan nào quy định?",
       "options": {
         "A": "Do sự phát triển của lực lượng sản xuất hiện đại.",
@@ -786,20 +747,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 61,
-      "question": "Giai cấp công nhân là giai cấp triệt để cách mạng bởi vì:",
-      "options": {
-        "A": "Là giai cấp không có tư liệu sản xuất.",
-        "B": "Là giai cấp thực hiện xóa bỏ mọi chế độ tư hữu.",
-        "C": "Cả b, c đều đúng.",
-        "D": "Xóa bỏ chủ nghĩa tư bản và xây dựng chủ nghĩa xã hội."
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c2"
-    },
-    {
-      "id": 62,
+      "id": 58,
       "question": "Nhà nước xã hội chủ nghĩa vừa có bản chất giai cấp công nhân, vừa có tính nhân dân rộng rãi và tính …………sâu sắc",
       "options": {
         "A": "Giai cấp tư sản",
@@ -812,7 +760,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 63,
+      "id": 59,
       "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa giai cấp công nhân, giai cấp nông dân và tầng lớp trí thức nội dung nào giữ vai trò quyết định?",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -825,7 +773,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 64,
+      "id": 60,
       "question": "Cơ sở tồn tại của tôn giáo là gì?",
       "options": {
         "A": "Niềm tin của con người.",
@@ -838,7 +786,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 65,
+      "id": 61,
       "question": "Thiện và ác là cặp phạm trù của hình thái ý thức nào?",
       "options": {
         "A": "Tính chất bảo thủ của tầng lớp trung lưu",
@@ -851,7 +799,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 66,
+      "id": 62,
       "question": "Gia đình được xây dựng trên cơ sở mối quan hệ nào?",
       "options": {
         "A": "Quan hệ hôn nhân.",
@@ -864,7 +812,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 67,
+      "id": 63,
       "question": "Đâu là vị trí của gia đình trong mối quan hệ với xã hội?",
       "options": {
         "A": "Cả a, b, c đều đúng.",
@@ -877,7 +825,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 68,
+      "id": 64,
       "question": "Hãy xác định chức năng cơ bản của gia đình:",
       "options": {
         "A": "Kinh tế và tổ chức tiêu dùng.",
@@ -890,7 +838,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 69,
+      "id": 65,
       "question": "Nội dung nào thể hiện chế độ hôn nhân tiến bộ?",
       "options": {
         "A": "Hôn nhân tự nguyện.",
@@ -903,7 +851,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 70,
+      "id": 66,
       "question": "Sự biến đổi về cơ cấu xã hội – giai cấp gắn liền và qui định bởi sự biến đổi của loại hình cơ cấu nào?",
       "options": {
         "A": "Giai cấp nông dân",
@@ -916,7 +864,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 71,
+      "id": 67,
       "question": "Xu hướng biến đổi chủ yếu của các giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Tầng lớp thương nhân",
@@ -929,7 +877,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 72,
+      "id": 68,
       "question": "Cách mạng xã hội chủ nghĩa vẫn là một tất yếu khách quan của tiến trình phát triển lịch sử nhân loại chừng nào:",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -942,7 +890,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 73,
+      "id": 69,
       "question": "Giai cấp  nào không có hệ tư tưởng độc lập ?",
       "options": {
         "A": "Giai cấp nông dân.",
@@ -955,7 +903,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 74,
+      "id": 70,
       "question": "Trong các tôn giáo sau, tôn giáo nào được truyền bá vào nước ta sớm nhất ?",
       "options": {
         "A": "Sự can thiệp của các quốc gia tư bản",
@@ -968,7 +916,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 75,
+      "id": 71,
       "question": "Theo C. Mác, tất cả những phong trào lịch sử, từ trước đến nay, đều là do thiểu số thực hiện, hoặc đều mưu lợi ích cho thiểu số. Phong trào vô sản mưu lợi ích cho khối đại đa số là phong trào độc lập của :",
       "options": {
         "A": "Nền kinh tế hàng hóa giản đơn",
@@ -981,7 +929,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 76,
+      "id": 72,
       "question": "Theo Lênin, nguyên tắc cao nhất của chuyên chính vô sản là duy trì:",
       "options": {
         "A": "Vai trò lãnh đạo của Đảng.",
@@ -994,7 +942,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 77,
+      "id": 73,
       "question": "Nội dung trước tiên của cách mạng xã hội chủ nghĩa là phải giành chính quyền về tay giai cấp công nhân, nhân dân lao động, đưa những người lao động:",
       "options": {
         "A": "Lên địa vị làm chủ xã hội.",
@@ -1007,7 +955,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 78,
+      "id": 74,
       "question": "Theo Lênin, chuyên chính vô sản là một hình thức đặc biệt của liên minh giai cấp giữa giai cấp vô sản, đội tiền phong của những người lao động, với đông đảo những:",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -1020,7 +968,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 79,
+      "id": 75,
       "question": "Tại sao nói cách mạng xã hội chủ nghĩa là cuộc cách mạng toàn diện, sâu sắc và triệt để nhất trong lịch sử?",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -1033,7 +981,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 80,
+      "id": 76,
       "question": "Cơ sở khách quan của xây dựng liên minh công – nông trong quá trình xây dựng chủ nghĩa xã hội là công nghiệp và nông nghiệp, đó là hai ngành:",
       "options": {
         "A": "Kinh tế tự nhiên tự cấp tự túc",
@@ -1046,7 +994,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 81,
+      "id": 77,
       "question": "Theo V. I. Lênin, nội dung chủ yếu của liên minh giữa giai cấp công nhân với giai cấp nông dân trong quá trình xây dựng chủ nghĩa xã hội phải theo nguyên tắc:",
       "options": {
         "A": "Tầng lớp thương nhân",
@@ -1059,7 +1007,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 82,
+      "id": 78,
       "question": "Liên minh giai cấp về văn hóa trong chủ nghĩa xã hội giai cấp công nhân, nông dân và những người lao động khác phải thường xuyên:",
       "options": {
         "A": "Học tập nâng cao trình độ.",
@@ -1072,7 +1020,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 83,
+      "id": 79,
       "question": "Chọn câu trả lời đúng. Cuộc cách mạng vô sản, về cơ bản khác các cuộc cách mạng trước đó trong lịch sử như thế nào?",
       "options": {
         "A": "Sự phát triển của tư tưởng cải lương",
@@ -1085,7 +1033,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 84,
+      "id": 80,
       "question": "Mục tiêu cuối cùng trong sứ mệnh lịch sử của giai cấp công nhân là gì?",
       "options": {
         "A": "Xây dựng thành công xã hội cộng sản chủ nghĩa không còn giai cấp và áp bức.",
@@ -1098,7 +1046,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 85,
+      "id": 81,
       "question": "Từ thực tiễn cách mạng chỉ ra, giai cấp công nhân phải giác ngộ cách mạng, phải kiên quyết đấu tranh giành lấy chính quyền từ tay giai cấp tư sản khi có thời cơ cách mạng vì:",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -1111,7 +1059,7 @@
       "chapter_id": "c2"
     },
     {
-      "id": 86,
+      "id": 82,
       "question": "C.Mác đã nói về giai đoạn thấp của xã hội cộng sản chủ nghĩa, là một xã hội vừa thoát thai từ xã hội tư bản chủ nghĩa, do đó về mọi phương diện đều:",
       "options": {
         "A": "Còn mang dấu vết xã hội cũ.",
@@ -1124,7 +1072,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 87,
+      "id": 83,
       "question": "Tính tất yếu của thời kỳ quá độ là do cần phải có thời gian để xây dựng các quan hệ xã hội của xã hội chủ nghĩa, vì trong lòng chủ nghĩa tư bản các quan hệ đó:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -1137,7 +1085,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 88,
+      "id": 84,
       "question": "Trên lĩnh vực kinh tế, thời kỳ quá độ là thời kỳ tất yếu còn tồn tại một hệ thống kinh tế quốc dân thống nhất với một nền kinh tế:",
       "options": {
         "A": "Nhiều thành phần.",
@@ -1150,7 +1098,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 89,
+      "id": 85,
       "question": "Đặc trưng cơ bản của chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -1163,7 +1111,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 90,
+      "id": 86,
       "question": "Theo NEP (chính sách kinh tế mới) của V.I.Lênin trong thời kỳ quá độ về kinh tế cần coi trọng các quan hệ kinh tế:",
       "options": {
         "A": "Kinh tế tự nhiên tự cấp tự túc",
@@ -1176,7 +1124,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 91,
+      "id": 87,
       "question": "Chủ nghĩa Mác – Lênin và hệ tư tưởng tôn giáo khác nhau cơ bản ở điểm nào?",
       "options": {
         "A": "Khác nhau về nhân sinh quan.",
@@ -1189,7 +1137,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 92,
+      "id": 88,
       "question": "Mặt tư tưởng của tôn giáo thể hiện sự tín ngưỡng tôn giáo. Trong quá trình xây dựng chủ nghĩa xã hội, khắc phục mặt này là việc làm:",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -1202,7 +1150,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 93,
+      "id": 89,
       "question": "Hình thức đầu tiên của đấu tranh giai cấp của giai cấp công nhân khi chưa giành được chính quyền ?",
       "options": {
         "A": "Giai cấp tư sản",
@@ -1215,7 +1163,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 94,
+      "id": 90,
       "question": "Có những nguyên tắc của tôn giáo còn phù hợp với chủ nghĩa xã hội, đáp ứng được nhu cầu, có sức thu hút đối với một bộ phận nhân dân là nguyên nhân gì của sự tồn tại tôn giáo?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -1228,7 +1176,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 95,
+      "id": 91,
       "question": "Giá trị của tư tưởng xã hội chủ nghĩa không tưởng phê phán là gì?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -1241,7 +1189,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 96,
+      "id": 92,
       "question": "Nguyên nhân của xu hướng phát triển cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ mang tính đa dạng và thống nhất là do:",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -1254,7 +1202,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 97,
+      "id": 93,
       "question": "Sự biến đổi cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội ngoài tính đặc thù còn mang đặc điểm gì khác?",
       "options": {
         "A": "Tính quy luật phổ biến.",
@@ -1267,20 +1215,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 98,
-      "question": "Chức năng cơ bản và riêng có của gia đình là gì?",
-      "options": {
-        "A": "Chức năng tái sản xuất ra con người.",
-        "B": "Nền kinh tế hàng hóa giản đơn",
-        "C": "Phát triển kinh tế tự nhiên",
-        "D": "Sự suy thoái của nền kinh tế thị trường"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 99,
+      "id": 94,
       "question": "Quan hệ nào của gia đình được coi là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
       "options": {
         "A": "Tính chất bảo thủ của tầng lớp trung lưu",
@@ -1293,7 +1228,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 100,
+      "id": 95,
       "question": "Điều kiện và tiền đề kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Thủ công nghiệp gia đình",
@@ -1306,20 +1241,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 101,
-      "question": "Chủ nghĩa Mác – Lê nin là hệ tư tưởng của giai cấp, tầng lớp nào?",
-      "options": {
-        "A": "Giai cấp phong kiến",
-        "B": "Tầng lớp thương nhân",
-        "C": "Giai cấp công nhân.",
-        "D": "Tầng lớp tiểu tư sản"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 102,
+      "id": 96,
       "question": "Theo V.I. Lênin, đặc trưng kinh tế nổi bật nhất của thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Sự tồn tại nền kinh tế nhiều thành phần với các hình thức sở hữu khác nhau.",
@@ -1332,7 +1254,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 103,
+      "id": 97,
       "question": "Nội dung cơ bản nhất của thời kỳ quá độ lên chủ nghĩa xã hội trên lĩnh vực tư tưởng - văn hóa là gì?",
       "options": {
         "A": "Xây dựng nền văn hóa mới XHCN và hệ tư tưởng Mác - Lênin giữ vai trò chủ đạo.",
@@ -1345,20 +1267,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 104,
-      "question": "Giai cấp công nhân là người lao động gắn với nền sản xuất :",
-      "options": {
-        "A": "Giai cấp nông dân",
-        "B": "Tầng lớp tiểu tư sản",
-        "C": "Giai cấp phong kiến",
-        "D": "Đại công nghiệp."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 105,
+      "id": 98,
       "question": "Học thuyết Mác- Lênin đã làm sáng tỏ vai trò lịch sử toàn thế giới của lực lượng nào?",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -1371,7 +1280,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 106,
+      "id": 99,
       "question": "Mục đích học tập môn Chủ nghĩa xã hội khoa học nhằm giúp sinh viên:",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -1384,7 +1293,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 107,
+      "id": 100,
       "question": "Hình thái kinh tế - xã hội cộng sản chủ nghĩa bao gồm những giai đoạn phát triển nào?",
       "options": {
         "A": "Giai đoạn thấp (chủ nghĩa xã hội) và giai đoạn cao (chủ nghĩa cộng sản).",
@@ -1397,7 +1306,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 108,
+      "id": 101,
       "question": "Phát kiến vĩ đại nào của Các Mác và Ăng ghen là cơ sở hình thành chủ nghĩa xã hội khoa học?",
       "options": {
         "A": "Chủ nghĩa duy vật lịch sử.\nHọc thuyết về giá trị thặng dư.\nHọc thuyết về sứ mệnh lịch sử của giai cấp công nhân.\nChọn:  d. Cả a, b, c đều đúng.",
@@ -1410,7 +1319,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 109,
+      "id": 102,
       "question": "Đối tượng nghiên cứu của chủ nghĩa xã hội khoa học là gì?",
       "options": {
         "A": "Sứ mệnh lịch sử của giai cấp công nhân.\nSự thay thế tất yếu chủ nghĩa tư bản bằng chủ nghĩa xã hội.\nCon đường cải tạo và xây dựng chủ nghĩa xã hội và chủ nghĩa cộng sản.\nChọn:  d. Cả a, b, c đều đúng.",
@@ -1423,7 +1332,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 110,
+      "id": 103,
       "question": "Chỉ ra đâu là phương pháp nghiên cứu của chủ nghĩa xã hội khoa học?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -1436,7 +1345,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 111,
+      "id": 104,
       "question": "Một trong những cống hiến vĩ đại của C. Mác là xây dựng học thuyết nào?",
       "options": {
         "A": "Sự phát triển của tư tưởng cải lương",
@@ -1449,7 +1358,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 112,
+      "id": 105,
       "question": "Tại sao sự xuất hiện của chế độ công hữu về tư liệu sản xuất lại là yếu tố quyết định bản chất của chủ nghĩa xã hội?",
       "options": {
         "A": "Vì nó xóa bỏ cơ sở kinh tế của chế độ người bóc lột người.",
@@ -1462,7 +1371,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 113,
+      "id": 106,
       "question": "Theo C.Mác, đặc trưng nào khiến cho giai cấp công nhân trở thành giai cấp vô sản?",
       "options": {
         "A": "Giai cấp tư sản",
@@ -1475,33 +1384,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 114,
-      "question": "Con đường quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa ở Việt Nam được hiểu là:",
-      "options": {
-        "A": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN.",
-        "B": "Bỏ qua toàn bộ lực lượng sản xuất và kỹ thuật công nghệ tiên tiến của TBCN.",
-        "C": "Bỏ qua nền kinh tế thị trường và quan hệ giao thương quốc tế.",
-        "D": "Bỏ qua quá trình công nghiệp hóa, hiện đại hóa đất nước."
-      },
-      "correct_answer": "A",
-      "explanation": "Bỏ qua chế độ TBCN là bỏ qua vị trí thống trị của QHSX và KTTT tư bản chủ nghĩa.",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 115,
-      "question": "Về địa vị trong các nước đi theo con đường xã hội chủ nghĩa, về cơ bản giai cấp công nhân cùng với nhân dân lao động đã trở thành những người làm chủ về:",
-      "options": {
-        "A": "Tầng lớp trí thức",
-        "B": "Giai cấp nông dân",
-        "C": "Tầng lớp tiểu tư sản",
-        "D": "Tư liệu sản xuất chủ yếu."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 116,
+      "id": 107,
       "question": "Xét về phương thức lao động, công nhân trong thế kỷ XIX khác gì so với công nhân hiện nay?",
       "options": {
         "A": "Tính kỷ luật thấp.",
@@ -1514,7 +1397,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 117,
+      "id": 108,
       "question": "Hiện nay trong các nước tư bản phát triển, tuyệt lại bộ phận tư liệu sản xuất nằm trong tay ai?",
       "options": {
         "A": "Các nhà tư bản lớn.",
@@ -1527,7 +1410,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 118,
+      "id": 109,
       "question": "Nhiệm vụ trọng tâm xuyên suốt của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là gì?",
       "options": {
         "A": "Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức.",
@@ -1540,7 +1423,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 119,
+      "id": 110,
       "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, quy luật phân phối chủ đạo nào được áp dụng?",
       "options": {
         "A": "Phân phối theo lao động.",
@@ -1553,33 +1436,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 120,
-      "question": "Theo C. Mác, bước một thực hiện sứ mệnh của giai cấp công nhân là họ chiếm lấy chính quyền, biến những tư liệu sản xuất thành của ai?",
-      "options": {
-        "A": "Giai cấp phong kiến",
-        "B": "Tầng lớp tiểu tư sản",
-        "C": "Công nhân và nông dân.",
-        "D": "Tầng lớp thương nhân"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 121,
-      "question": "Nhờ có yếu tố nào mà giai cấp công nhân  có khả năng đoàn kết với giai cấp khác để thực hiện sứ mệnh lịch sử của mình?",
-      "options": {
-        "A": "Giai cấp phong kiến",
-        "B": "Tầng lớp tiểu tư sản",
-        "C": "Tầng lớp thương nhân",
-        "D": "Lợi ích cơ bản thống nhất."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 122,
+      "id": 111,
       "question": "Bản chất chính trị của thời kỳ quá độ lên chủ nghĩa xã hội được thể hiện thông qua việc:",
       "options": {
         "A": "Thiết lập chuyên chính vô sản và phát huy nền dân chủ xã hội chủ nghĩa.",
@@ -1592,20 +1449,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 123,
-      "question": "Trong xây dựng xã hội xã hội chủ nghĩa, giai cấp công nhân có đặc điểm thế nào mà họ kiên định, kiên quyết đấu tranh chống chế độ áp bức bóc lột, xóa bỏ chế độ tư hữu?",
-      "options": {
-        "A": "Tính triệt để cách mạng.",
-        "B": "Giai cấp tư sản",
-        "C": "Giai cấp nông dân",
-        "D": "Tầng lớp thương nhân"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c3"
-    },
-    {
-      "id": 124,
+      "id": 112,
       "question": "Nguyên nhân kinh tế sâu xa dẫn đến sự ra đời của chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa cao với quan hệ sản xuất tư nhân TBCN.",
@@ -1618,7 +1462,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 125,
+      "id": 113,
       "question": "Cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội được tạo ra từ nền sản xuất nào?",
       "options": {
         "A": "Nền đại công nghiệp hiện đại.",
@@ -1631,7 +1475,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 126,
+      "id": 114,
       "question": "Sự khác biệt căn bản giữa quá độ trực tiếp và quá độ gián tiếp lên chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Quá độ gián tiếp diễn ra ở các nước chưa trải qua chủ nghĩa tư bản phát triển.",
@@ -1644,7 +1488,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 127,
+      "id": 115,
       "question": "Đặc trưng nổi bật của văn hóa xã hội chủ nghĩa là gì?",
       "options": {
         "A": "Xây dựng con người mới phát triển toàn diện và mang tính nhân văn sâu sắc.",
@@ -1657,7 +1501,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 128,
+      "id": 116,
       "question": "Còn nhiều hiện tượng mà khoa học chưa lí giải được, trình độ dân trí chưa cao khiến cho một số người tìm sự an ủi, che chở từ thần linh là nguyên nhân gì của sự tồn tại tôn giáo?",
       "options": {
         "A": "Khuyến khích tích tụ tư bản tư nhân",
@@ -1670,7 +1514,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 129,
+      "id": 117,
       "question": "Động lực chủ yếu thúc đẩy sự phát triển của xã hội Việt Nam trong thời kỳ quá độ lên CNXH là gì?",
       "options": {
         "A": "Đại đoàn kết toàn dân tộc trên cơ sở liên minh công - nông - trí thức dưới sự lãnh đạo của Đảng.",
@@ -1683,7 +1527,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 130,
+      "id": 118,
       "question": "Nhà nước đầu tiên thực hiện quyền lực thực sự của nhân dân là sau cuộc cách mạng nào?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -1696,7 +1540,7 @@
       "chapter_id": "c3"
     },
     {
-      "id": 131,
+      "id": 119,
       "question": "Đặc trưng của nền văn hóa xã hội chủ nghĩa là nền văn hóa có tính nhân dân rộng rãi và tính:",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -1709,7 +1553,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 132,
+      "id": 120,
       "question": "Một trong các phương thức để thực hiện được những nội dung chính yếu của nền văn hóa xã hội chủ nghĩa là không ngừng tăng cường sự lãnh đạo và quản lý của:",
       "options": {
         "A": "Đảng và Nhà nước.",
@@ -1722,20 +1566,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 133,
-      "question": "Đoàn kết giữa những người có tôn giáo với những người không có tôn giáo, đoàn kết các tôn giáo là một vấn đề:",
-      "options": {
-        "A": "Sự can thiệp của các quốc gia tư bản",
-        "B": "Khuyến khích tích tụ tư bản tư nhân",
-        "C": "Duy trì chế độ phân hóa giàu nghèo",
-        "D": "Nguyên tắc."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 134,
+      "id": 121,
       "question": "Dân tộc Việt Nam là một quốc gia đa dân tộc bao gồm:",
       "options": {
         "A": "Khuyến khích tích tụ tư bản tư nhân",
@@ -1748,7 +1579,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 135,
+      "id": 122,
       "question": "Cơ cấu xã hội của xã hội tư bản chủ nghĩa được đặc trưng bởi 2 giai cấp cơ bản đối lập nhau về lợi ích là:",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -1761,7 +1592,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 136,
+      "id": 123,
       "question": "Chủ nghĩa Mác - Lênin đã chỉ ra những công cụ nhận thức và cải tạo thế giới cho lực lượng nào?",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -1774,7 +1605,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 137,
+      "id": 124,
       "question": "Nền dân chủ xã hội chủ nghĩa đầu tiên trong lịch sử được xác lập sau sự kiện lịch sử nào?",
       "options": {
         "A": "Cách mạng Tháng Mười Nga năm 1917.",
@@ -1787,7 +1618,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 138,
+      "id": 125,
       "question": "Đâu không phải là cơ sở chế độ hôn nhân tự nguyện trong thời kỳ quá độ lên chủ",
       "options": {
         "A": "nghĩa xã hội?\nHôn nhân chỉ cần đảm bảo về mặt pháp lý.",
@@ -1800,7 +1631,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 139,
+      "id": 126,
       "question": "Sự ra đời của chế độ dân chủ xã hội chủ nghĩa được thiết lập cho:",
       "options": {
         "A": "Giai cấp công nhân và nhân dân lao động.",
@@ -1813,7 +1644,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 140,
+      "id": 127,
       "question": "Thời kỳ quá độ lên chủ nghĩa xã hội trên phạm vi cả nước bắt đầu từ khi nào?",
       "options": {
         "A": "Đáp án: c",
@@ -1826,33 +1657,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 141,
-      "question": "Lao động trong nền sản xuất đại công nghiệp với hệ thống sản xuất dây chuyền đã hình thành ở giai cấp công nhân đặc điểm nào?",
-      "options": {
-        "A": "Tính tổ chức, kỷ luật.",
-        "B": "Giai cấp tư sản",
-        "C": "Tầng lớp trí thức",
-        "D": "Giai cấp nông dân"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 142,
-      "question": "Để biến sứ mệnh lịch sử của giai cấp công nhân từ khả năng thành hiện thực phải thông qua nhân tố chủ quan, trong đó nhân tố quyết định là:",
-      "options": {
-        "A": "Thành lập Đảng Cộng sản.",
-        "B": "Giai cấp phong kiến",
-        "C": "Tầng lớp trí thức",
-        "D": "Giai cấp nông dân"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 143,
+      "id": 128,
       "question": "Theo nghĩa hẹp, cách mạng xã hội chủ nghĩa là cách mạng chính trị, kết thúc bằng việc công nhân, nhân dân lao động giành được chính quyền và xây dựng:",
       "options": {
         "A": "Chủ nghĩa xã hội.",
@@ -1865,7 +1670,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 144,
+      "id": 129,
       "question": "Nhà nước tư sản ngày càng can thiệp sâu vào kinh tế có tác động thế nào đến vấn đề khủng hoảng trong nền kinh tế tư bản chủ nghĩa?",
       "options": {
         "A": "Nông nghiệp tiểu nông",
@@ -1878,7 +1683,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 145,
+      "id": 130,
       "question": "Bản chất kinh tế của nền dân chủ xã hội chủ nghĩa dựa trên chế độ sở hữu nào?",
       "options": {
         "A": "Chế độ công hữu về các tư liệu sản xuất chủ yếu.",
@@ -1891,20 +1696,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 146,
-      "question": "Theo Lênin, nguyên tắc cao nhất của chuyên chính vô sản là duy trì khối liên minh giữa giai cấp công nhân và lực lượng nào để giai cấp công nhân có thể giữ được vai trò lãnh đạo và giữ chính quyền nhà nước?",
-      "options": {
-        "A": "Giai cấp phong kiến",
-        "B": "Tầng lớp trí thức",
-        "C": "Giai cấp nông dân.",
-        "D": "Tầng lớp tiểu tư sản"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 147,
+      "id": 131,
       "question": "Từ mâu thuẫn trong kinh tế của chủ nghĩa tư bản biểu hiện thành mâu thuẫn giữa giai cấp công nhân với giai cấp tư sản ngày càng trở nên quyết liệt trên lĩnh vực:",
       "options": {
         "A": "Chính trị - xã hội.",
@@ -1917,7 +1709,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 148,
+      "id": 132,
       "question": "Khi Đảng Cộng sản ra đời, toàn bộ hoạt động của đảng đều hướng vào vấn đề trung tâm của cách mạng là:",
       "options": {
         "A": "Phát triển kinh tế tự nhiên",
@@ -1930,20 +1722,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 149,
-      "question": "Về chính trị, trong thời kỳ quá độ, kết cấu giai cấp xã hội đa dạng gồm giai cấp công nhân, nông dân, tầng lớp trí thức và:",
-      "options": {
-        "A": "Những người sản xuất nhỏ.",
-        "B": "Một bộ phận giai cấp tư sản.",
-        "C": "Cả a,b,c đều đúng.",
-        "D": "Những tầng lớp lao động khác."
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 150,
+      "id": 133,
       "question": "Nội dung cơ bản về tư tưởng – văn hoá của thời kỳ quá độ là xây dựng nền văn hoá mới xã hội chủ nghĩa, cần phải tiếp thu giá trị tinh hoa của:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -1956,7 +1735,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 151,
+      "id": 134,
       "question": "Theo C. Mác và Ph. Ăngghen, đến xã hội xã hội chủ nghĩa thì quan hệ sản xuất xã hội chủ nghĩa mới được xác lập đầy đủ. Lúc đó, tư liệu sản xuất tồn tại dưới hình thức sở hữu toàn dân và hình thức sở hữu nào?",
       "options": {
         "A": "Sở hữu tập thể.",
@@ -1969,7 +1748,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 152,
+      "id": 135,
       "question": "Dân chủ và thực hiện dân chủ là nhu cầu như thế nào của con người?",
       "options": {
         "A": "Khách quan.",
@@ -1982,33 +1761,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 153,
-      "question": "Về dân chủ, một trong ba quan niệm cơ bản của Chủ nghĩa  Mác-Lênin là dân chủ với tư cách  một phạm trù chính trị gắn với một kiểu nhà nước và một giai cấp cầm quyền thì sẽ:",
-      "options": {
-        "A": "Giai cấp phong kiến",
-        "B": "Tầng lớp trí thức",
-        "C": "Không có dân chủ phi giai cấp.",
-        "D": "Tầng lớp thương nhân"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 154,
-      "question": "V. I. Lênin cho rằng, chế độ dân chủ là một hình thức nhà nước. Cho nên, chế độ dân chủ là việc thi hành có tổ chức, có hệ thống. Nhằm:",
-      "options": {
-        "A": "Đấu tranh kinh tế thuần túy",
-        "B": "Diễn biến hòa bình",
-        "C": "Thương lượng ôn hòa",
-        "D": "Cưỡng bức đối với con người."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 155,
+      "id": 136,
       "question": "Sự khác biệt về bản chất giữa nhà nước XHCN và các nhà nước bóc lột trong lịch sử là gì?",
       "options": {
         "A": "Nhà nước XHCN là nhà nước của đại đa số nhân dân lao động trấn áp thiểu số áp bức.",
@@ -2021,7 +1774,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 156,
+      "id": 137,
       "question": "Trên cơ sở của sự kết hợp hài hòa lợi ích cá nhân, lợi ích tâp thể, lợi ích của toàn xã hội, nền dân chủ xã hội chủ nghĩa có đặc trưng là động viên:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -2034,7 +1787,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 157,
+      "id": 138,
       "question": "Hình thức dân chủ trực tiếp ở Việt Nam được thực hiện thông qua cơ chế nào?",
       "options": {
         "A": "Nhân dân bầu cử, trưng cầu ý kiến và thực hiện quyền tự ứng cử.",
@@ -2047,7 +1800,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 158,
+      "id": 139,
       "question": "Xây dựng nền dân chủ xã hội chủ nghĩa là tất yếu vì dân chủ là yếu tố nào của quá trình xây dựng chủ nghĩa xã hội?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -2060,20 +1813,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 159,
-      "question": "Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam mang bản chất của giai cấp nào?",
-      "options": {
-        "A": "Giai cấp công nhân.",
-        "B": "Giai cấp nông dân.",
-        "C": "Tầng lớp trí thức.",
-        "D": "Giai cấp tư sản dân tộc."
-      },
-      "correct_answer": "A",
-      "explanation": "Nhà nước pháp quyền XHCN Việt Nam mang bản chất giai cấp công nhân.",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 160,
+      "id": 140,
       "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa có đặc trưng về nguyên tắc khác hẳn với nhà nước tư sản là vì lợi ích của:",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -2086,7 +1826,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 161,
+      "id": 141,
       "question": "Một trong năm chức năng cơ bản của nhà nước xã hội chủ nghĩa, theo V.I.Lênin, là: chuyên chính vô sản không phải chỉ là bạo lực đối với bọn bóc lột, và cũng không phải chủ yếu là bạo lực mà mặt cơ bản của nó là:",
       "options": {
         "A": "Tổ chức, xây dựng xã hội mới.",
@@ -2099,7 +1839,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 162,
+      "id": 142,
       "question": "Chức năng quan trọng nhất của Nhà nước xã hội chủ nghĩa là gì?",
       "options": {
         "A": "Chức năng tổ chức, xây dựng xã hội mới.",
@@ -2112,7 +1852,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 163,
+      "id": 143,
       "question": "Trong thời kì quá độ còn có các giai cấp, tầng lớp trung gian khác, họ thường dao động, nên tất yếu cần có nhân tố nào nhằm bảo đảm sự lãnh đạo của giai cấp công nhân đối với toàn xã hội?",
       "options": {
         "A": "Giai cấp nông dân",
@@ -2125,7 +1865,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 164,
+      "id": 144,
       "question": "Trong hệ thống chính trị xã hội chủ nghĩa ở Việt Nam, tổ chức nào giữ vai trò lãnh đạo?",
       "options": {
         "A": "Đảng Cộng sản Việt Nam.",
@@ -2138,7 +1878,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 165,
+      "id": 145,
       "question": "Sự phát triển của văn hóa bao giờ cũng chịu sự quy định của cơ sở nào trong mỗi chế độ xã hội nhất định?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -2151,7 +1891,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 166,
+      "id": 146,
       "question": "Yếu tố quyết định hình thành các nền văn hóa khác nhau là điều kiện sinh hoạt vật chất của mỗi xã hội và của mỗi giai cấp khác nhau, đặc biệt là của:",
       "options": {
         "A": "Cơ sở hạ tầng.",
@@ -2164,7 +1904,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 167,
+      "id": 147,
       "question": "Tiến trình cách mạng xã hội chủ nghĩa được tiến hành trên mọi lĩnh vực xã hội, trong đó có lĩnh vực văn hóa tinh thần dựa trên cơ sở tiền đề kinh tế là:",
       "options": {
         "A": "Chế độ sở hữu xã hội về tư liệu sản xuất.",
@@ -2177,7 +1917,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 168,
+      "id": 148,
       "question": "Nền văn hóa xã hội chủ nghĩa có đặc trưng cơ bản là được hình thành, phát triển một cách:",
       "options": {
         "A": "Tự giác.",
@@ -2190,7 +1930,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 169,
+      "id": 149,
       "question": "Một trong những nội dung chính của quá trình xây dựng nền văn hóa xã hội chủ nghĩa là xây dựng phát triển toàn diện:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -2203,7 +1943,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 170,
+      "id": 150,
       "question": "Một trong những nội dung chính của quá trình xây dựng nền văn hóa XHCN là xây dựng:",
       "options": {
         "A": "Khuyến khích tích tụ tư bản tư nhân",
@@ -2216,20 +1956,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 171,
-      "question": "Một trong những nội dung chính của quá trình xây dựng nền văn hóa xã hội chủ nghĩa là xây dựng gia đình:",
-      "options": {
-        "A": "Chủ nghĩa tư bản nhà nước",
-        "B": "Dân chủ văn minh.",
-        "C": "Chế độ phong kiến tập quyền",
-        "D": "Chủ nghĩa tư bản tự do cạnh tranh"
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 172,
+      "id": 151,
       "question": "Một phương thức để thực hiện những nội dung của nền văn hóa xã hội chủ nghĩa là tổ chức và lôi cuốn ai vào các hoạt động và sáng tạo văn hoá?",
       "options": {
         "A": "Quần chúng nhân dân.",
@@ -2242,7 +1969,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 173,
+      "id": 152,
       "question": "Để tạo nên mối liên hệ quốc gia và quốc tế mở rộng, xóa bỏ sự biệt lập, thúc đẩy các dân tộc xích lại gần nhau, có một xu hướng phát triển là các dân tộc:",
       "options": {
         "A": "Tính chất bảo thủ của tầng lớp trung lưu",
@@ -2255,20 +1982,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 174,
-      "question": "Ý thức tôn giáo là niềm tin của một bộ phận nhân dân, là yếu tố bền vững nhất trong đời sống tinh thần là nguyên nhân gì của sự tồn tại tôn giáo?",
-      "options": {
-        "A": "Sự phát triển của tư tưởng cải lương",
-        "B": "Tâm lý.",
-        "C": "Phát triển kinh tế tự nhiên",
-        "D": "Sự suy thoái của nền kinh tế thị trường"
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c4"
-    },
-    {
-      "id": 175,
+      "id": 153,
       "question": "Dân chủ gián tiếp (dân chủ đại diện) được thực hiện như thế nào?",
       "options": {
         "A": "Nhân dân thực hiện quyền lực thông qua đại biểu do mình bầu ra.",
@@ -2281,20 +1995,7 @@
       "chapter_id": "c4"
     },
     {
-      "id": 176,
-      "question": "Một nguyên tắc giải quyết vấn đề tôn giáo trong chủ nghĩa xã hội là cần phân biệt rõ mặt:",
-      "options": {
-        "A": "Chủ nghĩa tư bản nhà nước",
-        "B": "Chủ nghĩa tư bản tự do cạnh tranh",
-        "C": "Chế độ chiếm hữu nô lệ",
-        "D": "A.\nB. | b. Chính trị và tư tưởng."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 177,
+      "id": 154,
       "question": "Tình hình CNTB thế giới đầu thế kỷ XX là :",
       "options": {
         "A": "Duy trì chế độ phân hóa giàu nghèo",
@@ -2307,7 +2008,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 178,
+      "id": 155,
       "question": "Chủ nghĩa xã hội khoa học nghiên cứu những quy luật chuyển biến xã hội từ :",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -2320,7 +2021,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 179,
+      "id": 156,
       "question": "Nguyên nhân sâu xa của cách mạng xã hội chủ nghĩa là gì?",
       "options": {
         "A": "Do mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất.",
@@ -2333,7 +2034,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 180,
+      "id": 157,
       "question": "Phân phối theo lao động là hình thức phân phối cơ bản của xã hội nào?",
       "options": {
         "A": "Đấu tranh kinh tế thuần túy",
@@ -2346,7 +2047,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 181,
+      "id": 158,
       "question": "Xã hội có giai cấp, xét về mặt kết cấu thì :",
       "options": {
         "A": "Bao giờ cũng có những giai cấp cơ bản và giai cấp không cơ bản.",
@@ -2359,7 +2060,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 182,
+      "id": 159,
       "question": "Cơ cấu xã hội nào giữ vị trí vị trí trung tâm và quy định các cơ cấu xã hội khác?",
       "options": {
         "A": "Cơ cấu xã hội - giai cấp.",
@@ -2372,7 +2073,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 183,
+      "id": 160,
       "question": "Giai cấp công nhân Việt Nam trong thời kỳ quá độ có sự biến đổi như thế nào?",
       "options": {
         "A": "Tăng nhanh về số lượng, nâng cao về chất lượng và đa dạng về cơ cấu nghề nghiệp.",
@@ -2385,7 +2086,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 184,
+      "id": 161,
       "question": "Khi xã hội chưa có giai cấp, chưa có đấu tranh giai cấp thì :",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -2398,7 +2099,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 185,
+      "id": 162,
       "question": "Nội dung kinh tế của liên minh công - nông - trí thức ở Việt Nam hiện nay là gì?",
       "options": {
         "A": "Hợp tác phát triển sản xuất, liên kết kinh tế giữa công nghiệp, nông nghiệp và khoa học công nghệ.",
@@ -2411,7 +2112,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 186,
+      "id": 163,
       "question": "Thời kỳ quá độ ở Việt Nam là bước quá độ:",
       "options": {
         "A": "Mâu thuẫn giữa tư bản và nông dân",
@@ -2424,7 +2125,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 187,
+      "id": 164,
       "question": "Các thành phần kinh tế ở nước ta trong thời kỳ quá độ, thành phần nào giữ vai trò chủ đạo?",
       "options": {
         "A": "Sản xuất hàng hóa nhỏ",
@@ -2437,7 +2138,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 188,
+      "id": 165,
       "question": "Đặc điểm kinh tế trong thời kỳ quá độ ở nước ta hiện nay:",
       "options": {
         "A": "Nền kinh tế thị trường còn ở tình trạng kém phát triển.",
@@ -2450,7 +2151,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 189,
+      "id": 166,
       "question": "Mục tiêu  xây dựng nền văn hoá ở Việt Nam",
       "options": {
         "A": "Phát triển kinh tế tự nhiên",
@@ -2463,33 +2164,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 190,
-      "question": "Giai cấp công nhân Việt Nam ra đời vào thời gian :",
-      "options": {
-        "A": "Tầng lớp tiểu tư sản",
-        "B": "Giai cấp phong kiến",
-        "C": "Giai cấp tư sản",
-        "D": "Thực dân Pháp khai thác thuộc địa lần thứ nhất."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 191,
-      "question": "Chế độ dân chủ  xã hội chủ nghĩa là chế độ dân chủ :",
-      "options": {
-        "A": "Chế độ phong kiến tập quyền",
-        "B": "Cho tuyệt đại đa số nhân dân lao động.",
-        "C": "Chủ nghĩa tư bản tự do cạnh tranh",
-        "D": "Chế độ chiếm hữu nô lệ"
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 192,
+      "id": 167,
       "question": "Nội dung chính trị của liên minh giai cấp ở Việt Nam nhằm mục đích gì?",
       "options": {
         "A": "Giữ vững độc lập dân tộc và định hướng xã hội chủ nghĩa dưới sự lãnh đạo của Đảng.",
@@ -2502,7 +2177,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 193,
+      "id": 168,
       "question": "So với các nền dân chủ trước, dân chủ xã hội chủ nghĩa có điểm khác biệt cơ bản nào?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -2515,7 +2190,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 194,
+      "id": 169,
       "question": "Thời kỳ quá độ lên CNXH là tất yếu đối với:",
       "options": {
         "A": "Sự suy thoái của nền kinh tế thị trường",
@@ -2528,7 +2203,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 195,
+      "id": 170,
       "question": "Thực chất của thời kỳ quá độ lên CNXH là gì?",
       "options": {
         "A": "Là cuộc cải biến cách mạng về tư tưởng và văn hóa.",
@@ -2541,7 +2216,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 196,
+      "id": 171,
       "question": "Tầng lớp trí thức Việt Nam có vai trò đặc biệt gì trong thời kỳ quá độ?",
       "options": {
         "A": "Là lực lượng lao động sáng tạo đặc biệt trong phát triển kinh tế tri thức và đổi mới sáng tạo.",
@@ -2554,7 +2229,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 197,
+      "id": 172,
       "question": "Chọn câu trả lời đúng. Trong thời kỳ quá độ lên CNXH ở nước ta có những nhiệm vụ kinh tế cơ bản nào?",
       "options": {
         "A": "Diễn biến hòa bình",
@@ -2567,7 +2242,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 198,
+      "id": 173,
       "question": "Hiểu vấn đề “bỏ qua” chế độ TBCN ở nước ta như thế nào là đúng?",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -2580,7 +2255,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 199,
+      "id": 174,
       "question": "Điền từ còn thiếu vào câu: “Muốn xây dựng chủ nghĩa xã hội, trước hết cần có những con người…….”",
       "options": {
         "A": "Xã hội chủ nghĩa.",
@@ -2593,7 +2268,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 200,
+      "id": 175,
       "question": "Nội dung văn hóa - xã hội của liên minh công - nông - trí thức là gì?",
       "options": {
         "A": "Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc, nâng cao dân trí và phúc lợi xã hội.",
@@ -2606,7 +2281,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 201,
+      "id": 176,
       "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, giai cấp công nhân có đặc trưng chủ yếu nhất bằng thuộc tính nào sau đây?",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -2619,7 +2294,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 202,
+      "id": 177,
       "question": "Giai cấp nào lãnh cuộc cách mạng thời kỳ cận đại chống phong kiến?",
       "options": {
         "A": "Giai cấp tư sản",
@@ -2632,7 +2307,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 203,
+      "id": 178,
       "question": "Những nhà triết học khai sáng Pháp chuẩn bị về mặt tư tưởng cho cuộc cách mạng nào?",
       "options": {
         "A": "Cách mạng tư sản",
@@ -2645,7 +2320,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 204,
+      "id": 179,
       "question": "Thời kỳ phục hưng giai cấp tư sản có vị trí như thế nào đối với sự phát triển của xã hội?",
       "options": {
         "A": "Là giai cấp tiến bộ, cách mạng.",
@@ -2658,20 +2333,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 205,
-      "question": "Chủ nghĩa xã hội khoa học là :",
-      "options": {
-        "A": "Đặt mục tiêu giải phóng triệt để giai cấp vô sản, nhân dân lao động và",
-        "B": "Một học thuyết vạch ra được con đường giải phóng triệt để cho nhân",
-        "C": "Cả a, b, c đều đúng",
-        "D": "Xây dựng xã hội cộng sản không còn giai cấp."
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 206,
+      "id": 180,
       "question": "Trong cơ cấu giai cấp - xã hội ở nước ta hiện nay có :",
       "options": {
         "A": "Giai cấp công nhân, giai cấp nông dân, tầng lớp trí thức, tầng lớp tư sản,\ntiểu tư sản và các tầng lớp nhân dân lao động khác.",
@@ -2684,7 +2346,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 207,
+      "id": 181,
       "question": "Quan hệ giữa giai cấp công nhân, nhân dân lao động với tầng lớp tư sản trong thời kỳ quá độ lên CNXH là:",
       "options": {
         "A": "Quan hệ vừa hợp tác vừa đấu tranh.",
@@ -2697,72 +2359,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 208,
-      "question": "Dân tộc Việt Nam là một quốc gia đa dân tộc, thống nhất gồm 54 dân tộc trong đó:",
-      "options": {
-        "A": "Mâu thuẫn giữa tư bản và nông dân",
-        "B": "Sự can thiệp của các quốc gia tư bản",
-        "C": "Tăng cường sở hữu tư nhân",
-        "D": "Dân tộc Kinh chiếm 87%, 53 dân tộc còn lại chiếm 13%"
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 209,
-      "question": "Thời kỳ quá độ đi lên CNXH:",
-      "options": {
-        "A": "Sự can thiệp của các quốc gia tư bản",
-        "B": "Phát triển kinh tế tự nhiên",
-        "C": "Nền kinh tế hàng hóa giản đơn",
-        "D": "Bắt đầu từ khi giai cấp công nhân giành được chính quyền nhà nước."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 210,
-      "question": "Thời kỳ quá độ ở Việt Nam là bước quá độ như thế nào?",
-      "options": {
-        "A": "Mâu thuẫn giữa tư bản và nông dân",
-        "B": "Sự can thiệp của các quốc gia tư bản",
-        "C": "Quá độ gián tiếp, bỏ qua chủ nghĩa tư bản tiến lên chủ nghĩa xã hội.",
-        "D": "Sự suy thoái của nền kinh tế thị trường"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 211,
-      "question": "Đặc điểm nổi bật của thời kỳ quá độ lên chủ nghĩa xã hội chính là :",
-      "options": {
-        "A": "Những nhân tố của xã hội mới và những tàn tích của xã hội cũ tồn tại\nđan xen lẫn nhau và đấu tranh với nhau trên mọi lĩnh vực của đời sống\nxã hội.",
-        "B": "Chủ nghĩa tư bản nhà nước",
-        "C": "Chế độ chiếm hữu nô lệ",
-        "D": "Chế độ phong kiến tập quyền"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 212,
-      "question": "Các thành phần kinh tế của nước ta trong thời kỳ quá độ lên CNXH, thành phần nào giữ vai trò chủ đạo?",
-      "options": {
-        "A": "Thủ công nghiệp gia đình",
-        "B": "Nông nghiệp tiểu nông",
-        "C": "Sản xuất hàng hóa nhỏ",
-        "D": "Kinh tế tập thể."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 213,
+      "id": 182,
       "question": "Hiện nay, nước ta trong thời kỳ quá độ lên CNXH đang tồn tại các thách thức nào?",
       "options": {
         "A": "Duy trì chế độ phân hóa giàu nghèo",
@@ -2775,20 +2372,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 214,
-      "question": "Chế độ dân chủ xã hội chủ nghĩa là chế độ:",
-      "options": {
-        "A": "Chế độ chiếm hữu nô lệ",
-        "B": "Chủ nghĩa tư bản nhà nước",
-        "C": "Chế độ phong kiến tập quyền",
-        "D": "Cho tuyệt đại đa số nhân dân lao động."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c5"
-    },
-    {
-      "id": 215,
+      "id": 183,
       "question": "Xu hướng biến đổi của giai cấp nông dân Việt Nam hiện nay là gì?",
       "options": {
         "A": "Giảm dần về tỷ lệ trong cơ cấu lao động và phân hóa thành các bộ phận lao động mới.",
@@ -2801,20 +2385,7 @@
       "chapter_id": "c5"
     },
     {
-      "id": 216,
-      "question": "Trong hai chức năng cơ bản của nhà nước thì:",
-      "options": {
-        "A": "Chủ nghĩa tư bản nhà nước",
-        "B": "Chế độ phong kiến tập quyền",
-        "C": "Đường lối đối nội của một nhà nước sẽ quyết định đường lối đối ngoại\ncủa nhà nước đó.",
-        "D": "Chủ nghĩa tư bản tự do cạnh tranh"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 217,
+      "id": 184,
       "question": "Gia đình là một hình thái xã hội đặc biệt được hình thành và phát triển dựa trên hai mối quan hệ cơ bản nào?",
       "options": {
         "A": "Quan hệ hôn nhân và quan hệ huyết thống.",
@@ -2827,7 +2398,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 218,
+      "id": 185,
       "question": "Trong điều kiện hiện nay, xã hội hoá giáo dục được nhấn mạnh:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -2840,7 +2411,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 219,
+      "id": 186,
       "question": "Chức năng nào được coi là chức năng đặc thù và riêng có của gia đình?",
       "options": {
         "A": "Tái sản xuất ra con người.",
@@ -2853,20 +2424,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 220,
-      "question": "Kiểu nhà nước nào sau đây được Lênin gọi là nhà nước “ Nửa nhà nước”?",
-      "options": {
-        "A": "Chế độ chiếm hữu nô lệ",
-        "B": "Chế độ phong kiến tập quyền",
-        "C": "Chủ nghĩa tư bản nhà nước",
-        "D": "Nhà nước xã hội chủ nghĩa."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 221,
+      "id": 187,
       "question": "Nội dung nào sau đây phản ánh đúng vị trí của gia đình đối với xã hội?",
       "options": {
         "A": "Gia đình là tế bào của xã hội.",
@@ -2879,20 +2437,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 222,
-      "question": "Xây dựng nhà nước pháp quyền xã hội chủ nghĩa của dân, do dân, vì dân ở nước ta hiện nay cần:",
-      "options": {
-        "A": "Cả a, b, c đều đúng.",
-        "B": "Dân chủ hoá tổ chức và hoạt động của bộ máy nhà nước.",
-        "C": "Xây dựng hệ thống pháp luật hoàn chỉnh.",
-        "D": "Tăng cường sự lãnh đạo của Đảng."
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 223,
+      "id": 188,
       "question": "Chế độ hôn nhân tiến bộ trong chủ nghĩa xã hội dựa trên nguyên tắc cơ bản nào?",
       "options": {
         "A": "Hôn nhân tự nguyện, một vợ một chồng, vợ chồng bình đẳng.",
@@ -2905,7 +2450,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 224,
+      "id": 189,
       "question": "Các giai cấp, tầng lớp trong cơ cấu giai cấp - xã hội trong thời kỳ quá độ lên",
       "options": {
         "A": "Tầng lớp trí thức",
@@ -2918,20 +2463,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 225,
-      "question": "Thành phần kinh tế nhà nước là thành phần kinh tế chủ đạo trong thời kỳ quá độ  lên CNXH vì:",
-      "options": {
-        "A": "Kiểm soát được kinh tế tư bản tư nhân.",
-        "B": "Cả a, b, c đều đúng.",
-        "C": "Chuyển dần sở hữu tư nhân sang sở hữu nhà nước.",
-        "D": "Kết hợp sức mạnh tư nhân và nhà nước."
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 226,
+      "id": 190,
       "question": "Cơ sở kinh tế - xã hội để xây dựng gia đình mới trong thời kỳ quá độ lên CNXH là gì?",
       "options": {
         "A": "Xác lập chế độ công hữu về tư liệu sản xuất và phát triển kinh tế XHCN.",
@@ -2944,7 +2476,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 227,
+      "id": 191,
       "question": "Chức năng kinh tế và tổ chức tiêu dùng của gia đình ở Việt Nam hiện nay có sự biến đổi như thế nào?",
       "options": {
         "A": "Từ đơn vị tiêu dùng chuyển thành đơn vị sản xuất hàng hóa và dịch vụ đa dạng.",
@@ -2957,7 +2489,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 228,
+      "id": 192,
       "question": "Sự biến đổi về quy mô gia đình Việt Nam trong thời kỳ hiện đại theo xu hướng nào?",
       "options": {
         "A": "Quy mô gia đình thu nhỏ lại (mô hình gia đình hạt nhân chiếm ưu thế).",
@@ -2970,7 +2502,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 229,
+      "id": 193,
       "question": "Yếu tố chính trị - xã hội quyết định sự bình đẳng nam nữ trong gia đình là gì?",
       "options": {
         "A": "Thiết lập chính quyền của nhân dân lao động và hệ thống pháp luật XHCN.",
@@ -2983,7 +2515,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 230,
+      "id": 194,
       "question": "Chức năng nuôi dưỡng, giáo dục con cái của gia đình có vai trò gì đối với xã hội?",
       "options": {
         "A": "Hình thành nhân cách, đạo đức và tri thức cho thế hệ trẻ.",
@@ -2996,20 +2528,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 231,
-      "question": "Mối quan hệ giữa gia đình và xã hội là mối quan hệ như thế nào?",
-      "options": {
-        "A": "Mối quan hệ tác động qua lại lẫn nhau; xã hội quyết định gia đình và gia đình thúc đẩy xã hội.",
-        "B": "Mối quan hệ một chiều từ gia đình đến xã hội.",
-        "C": "Mối quan hệ tách biệt không liên quan.",
-        "D": "Gia đình quyết định tuyệt đối sự tồn tại của xã hội."
-      },
-      "correct_answer": "A",
-      "explanation": "Xã hội quy định sự biến đổi của gia đình, ngược lại gia đình góp phần ổn định xã hội.",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 232,
+      "id": 195,
       "question": "Nguồn gốc kinh tế - xã hội của tôn giáo?",
       "options": {
         "A": "Thủ công nghiệp gia đình",
@@ -3022,7 +2541,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 233,
+      "id": 196,
       "question": "Tôn giáo hình thành là do:",
       "options": {
         "A": "Sự sợ hãi của con người trước những sức mạnh của tự nhiên và xã hội",
@@ -3035,7 +2554,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 234,
+      "id": 197,
       "question": "Bản chất chính trị của nền dân chủ xã hội chủ nghĩa thể hiện như thế nào?",
       "options": {
         "A": "Là sự lãnh đạo của giai cấp công nhân thông qua đảng của nó đối với",
@@ -3048,7 +2567,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 235,
+      "id": 198,
       "question": "Trong các loại ý thức sau, ý thức nào có tính chất phong phú, đa dạng nhất?",
       "options": {
         "A": "Phát triển kinh tế tự nhiên",
@@ -3061,7 +2580,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 236,
+      "id": 199,
       "question": "Chủ nghĩa Mác ra đời trong lòng xã hội tư bản, điều đó thể hiện tính chất gì của ý thức xã hội?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -3074,7 +2593,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 237,
+      "id": 200,
       "question": "Mác ví hình thái ý thức nào có tính chất “thuốc phiện”:",
       "options": {
         "A": "Mâu thuẫn giữa tư bản và nông dân",
@@ -3087,7 +2606,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 238,
+      "id": 201,
       "question": "Nội dung nào sau đây thể hiện sự biến đổi trong mối quan hệ giữa các thế hệ trong gia đình hiện đại?",
       "options": {
         "A": "Mối quan hệ trở nên bình đẳng, dân chủ hơn nhưng thách thức việc giữ gìn sự gắn kết.",
@@ -3100,7 +2619,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 239,
+      "id": 202,
       "question": "Sự thay thế xã hội tư bản chủ nghĩa bằng xã hội xã hội chủ nghĩa trong tiến trình lịch sử là một tất yếu, vì sao?",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -3113,7 +2632,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 240,
+      "id": 203,
       "question": "Theo Lênin: “ vậy thì danh từ … có nghĩa là gì? Vận dụng vào kinh tế, có phải nó có nghĩa là trong chế độ hiện nay có những thành phần, những bộ phận, những mảnh của cả chủ nghĩa tư bản lẫn chủ nghĩa xã hội không? Bất kể ai cũng đều thừa nhận là có”. Điền từ thích hợp vào dấu … ở luận điểm trên?",
       "options": {
         "A": "Quá độ",
@@ -3126,7 +2645,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 241,
+      "id": 204,
       "question": "Biểu hiện về mặt xã hội của mâu thuẫn giữa tính chất xã hội hoá của lực",
       "options": {
         "A": "lượng sản xuất với quan hệ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất trong xã hội tư bản là gì?\na. Mâu thuẫn giữa giai cấp công nhân và giai cấp tư sản.",
@@ -3139,7 +2658,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 242,
+      "id": 205,
       "question": "Đặc điểm cơ bản nhất của nước ta khi bước vào thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -3152,7 +2671,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 243,
+      "id": 206,
       "question": "Phương hướng xây dựng gia đình Việt Nam trong thời kỳ quá độ lên CNXH là:",
       "options": {
         "A": "Xây dựng gia đình no ấm, bình đẳng, tiến bộ, hạnh phúc.",
@@ -3165,7 +2684,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 244,
+      "id": 207,
       "question": "Quan hệ nuôi dưỡng, chăm sóc giữa các thành viên trong gia đình biểu hiện trách nhiệm gì?",
       "options": {
         "A": "Trách nhiệm tình cảm, đạo đức và pháp lý giữa các thành viên.",
@@ -3178,7 +2697,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 245,
+      "id": 208,
       "question": "Vì sao công nghiệp hóa, hiện đại hóa làm thay đổi cấu trúc gia đình?",
       "options": {
         "A": "Vì nó làm dịch chuyển lao động, tăng tính di động xã hội và tạo việc làm mới.",
@@ -3191,7 +2710,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 246,
+      "id": 209,
       "question": "Trách nhiệm của Nhà nước trong việc bảo vệ gia đình là gì?",
       "options": {
         "A": "Ban hành Luật Hôn nhân & Gia đình và các chính sách an sinh xã hội hỗ trợ gia đình.",
@@ -3204,7 +2723,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 247,
+      "id": 210,
       "question": "Tiền đề tư tưởng lý luận trực tiếp hình thành chủ nghĩa xã hội khoa học là gì?",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -3217,7 +2736,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 248,
+      "id": 211,
       "question": "Sự biến đổi của chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình hiện nay có xu hướng:",
       "options": {
         "A": "Ngày càng gia tăng và đóng vai trò yếu tố cốt lõi giữ gìn sự bền vững gia đình.",
@@ -3230,7 +2749,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 249,
+      "id": 212,
       "question": "Mối quan hệ giữa vợ và chồng trong gia đình XHCN được xây dựng trên nền tảng nào?",
       "options": {
         "A": "Tình yêu thương chân chính, sự thủy chung, tôn trọng và bình đẳng.",
@@ -3243,7 +2762,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 250,
+      "id": 213,
       "question": "Trong tư tưởng – văn hoá của thời kì quá độ, Lênin cho yếu tố nào là “kẻ thù dấu mặt hết sức nguy hiểm, nguy hiểm hơn so với nhiều bọn phản cách mạng công khai”?",
       "options": {
         "A": "Phát triển kinh tế tự nhiên",
@@ -3256,7 +2775,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 251,
+      "id": 214,
       "question": "Biến đổi trong chức năng giáo dục của gia đình Việt Nam hiện nay là gì?",
       "options": {
         "A": "Sự kết hợp chặt chẽ giữa giáo dục gia đình, giáo dục nhà trường và giáo dục xã hội.",
@@ -3269,7 +2788,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 252,
+      "id": 215,
       "question": "Khái niệm 'Gia đình hạt nhân' được hiểu là gì?",
       "options": {
         "A": "Gia đình bao gồm hai thế hệ: bố mẹ và con cái chưa kết hôn.",
@@ -3282,7 +2801,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 253,
+      "id": 216,
       "question": "Tác động tích cực của kinh tế thị trường đối với gia đình ở Việt Nam là gì?",
       "options": {
         "A": "Tạo điều kiện tăng thu nhập, nâng cao mức sống và đa dạng hóa cơ hội nghề nghiệp.",
@@ -3295,7 +2814,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 254,
+      "id": 217,
       "question": "Vấn đề nào đang là thách thức đối với việc giữ gìn sự bền vững gia đình ở Việt Nam hiện nay?",
       "options": {
         "A": "Tỷ lệ ly hôn tăng, bạo lực gia đình và lối sống thực dụng gia tăng.",
@@ -3308,7 +2827,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 255,
+      "id": 218,
       "question": "Tại sao việc giải phóng phụ nữ là điều kiện bắt buộc để xây dựng gia đình XHCN?",
       "options": {
         "A": "Vì người phụ nữ chiếm một nửa lực lượng lao động và có vai trò trung tâm trong gia đình.",
@@ -3321,7 +2840,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 256,
+      "id": 219,
       "question": "Bình đẳng giữa các thế hệ trong gia đình được hiểu là:",
       "options": {
         "A": "Cha mẹ tôn trọng ý kiến con cái, con cái hiếu thảo chăm sóc cha mẹ.",
@@ -3334,7 +2853,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 257,
+      "id": 220,
       "question": "Cách mạng xã hội chủ nghĩa trên lĩnh vực tư tưởng-văn hóa thực hiện việc giải phóng những người lao động về tinh thần thông qua xây dựng từng bước:",
       "options": {
         "A": "Chế độ chiếm hữu nô lệ",
@@ -3347,7 +2866,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 258,
+      "id": 221,
       "question": "Mục tiêu tiêu biểu nhất của Ngày Gia đình Việt Nam (28/6) hàng năm là gì?",
       "options": {
         "A": "Tôn vinh các giá trị văn hóa gia đình truyền thống và nâng cao ý thức xây dựng gia đình hạnh phúc.",
@@ -3360,20 +2879,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 259,
-      "question": "Tại sao nói cách mạng xã hội chủ nghĩa là cuộc cách mạng toàn diện, sâu sắc và triệt để nhất trong ịch sử?",
-      "options": {
-        "A": "Vì xoá bỏ chế độ tư hữu, thủ tiêu chế độ người bóc lột người.",
-        "B": "Chủ nghĩa tư bản tự do cạnh tranh",
-        "C": "Chế độ phong kiến tập quyền",
-        "D": "Chế độ chiếm hữu nô lệ"
-      },
-      "correct_answer": "A",
-      "explanation": "",
-      "chapter_id": "c7"
-    },
-    {
-      "id": 260,
+      "id": 222,
       "question": "Năm 1992, UNESSCO chỉ rõ: “Không có một sự tiến bộ và thành đạt nào có thế tách khỏi sự tiến bộ và thành tựu trong…”",
       "options": {
         "A": "Sự can thiệp của các quốc gia tư bản",
@@ -3386,7 +2892,7 @@
       "chapter_id": "c7"
     },
     {
-      "id": 261,
+      "id": 223,
       "question": "Quan điểm về xã hội hoá giáo dục của Đảng CSVN được nhấn mạnh:",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -3399,7 +2905,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 262,
+      "id": 224,
       "question": "Theo V.I. Lênin, hai xu hướng khách quan trong sự phát triển của quan hệ dân tộc là gì?",
       "options": {
         "A": "Tách ra để thành lập các quốc gia dân tộc độc lập và xích lại gần nhau để liên hiệp hợp tác.",
@@ -3412,7 +2918,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 263,
+      "id": 225,
       "question": "Nội dung quan trọng nhất trong Cương lĩnh dân tộc của V.I. Lênin là gì?",
       "options": {
         "A": "Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc.",
@@ -3425,7 +2931,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 264,
+      "id": 226,
       "question": "Quyền tự quyết của các dân tộc được hiểu là gì?",
       "options": {
         "A": "Quyền tự lựa chọn chế độ chính trị và con đường phát triển của dân tộc mình.",
@@ -3438,7 +2944,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 265,
+      "id": 227,
       "question": "Sự phát triển về kinh tế dưới chủ nghĩa tư bản càng gia tăng thì vấn đề gì của giai cấp công nhân cũng càng tăng?",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -3451,7 +2957,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 266,
+      "id": 228,
       "question": "Bản chất của tôn giáo theo quan điểm của chủ nghĩa Mác - Lênin là gì?",
       "options": {
         "A": "Là một hình thái ý thức xã hội phản ánh hư ảo thực tại khách quan.",
@@ -3464,7 +2970,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 267,
+      "id": 229,
       "question": "Tại sao nói quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa là con đường tất yếu của cách mạng Việt Nam ?",
       "options": {
         "A": "Thương lượng ôn hòa",
@@ -3477,7 +2983,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 268,
+      "id": 230,
       "question": "Tác phẩm nào được xem là đánh dấu cho sự chín muồi của tư tưởng xã hội chủ nghĩa của C. Mác và Ăng – ghen?",
       "options": {
         "A": "Chế độ phong kiến tập quyền",
@@ -3490,7 +2996,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 269,
+      "id": 231,
       "question": "Nguyên nhân kinh tế dẫn đến sự tồn tại của tôn giáo trong thời kỳ quá độ là gì?",
       "options": {
         "A": "Sự tồn tại của nền kinh tế nhiều thành phần và bất trắc trong sản xuất kinh doanh.",
@@ -3503,7 +3009,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 270,
+      "id": 232,
       "question": "Nguyên nhân tâm lý dẫn đến sự tồn tại của tôn giáo là gì?",
       "options": {
         "A": "Sự sợ hãi, bế tắc của con người trước sức mạnh tự nhiên và rủi ro xã hội.",
@@ -3516,7 +3022,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 271,
+      "id": 233,
       "question": "Nguyên tắc cốt lõi trong giải quyết vấn đề tôn giáo của Đảng và Nhà nước ta là gì?",
       "options": {
         "A": "Tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân; thực hiện tự do tín ngưỡng.",
@@ -3529,7 +3035,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 272,
+      "id": 234,
       "question": "Đặc điểm nổi bật của các dân tộc thiểu số ở Việt Nam là gì?",
       "options": {
         "A": "Cư trú xen kẽ, phân bố rộng lớn trên các địa bàn chiến lược về quốc phòng an ninh.",
@@ -3542,7 +3048,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 273,
+      "id": 235,
       "question": "Chính sách dân tộc cơ bản của Đảng Cộng sản Việt Nam là:",
       "options": {
         "A": "Bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển.",
@@ -3555,7 +3061,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 274,
+      "id": 236,
       "question": "Tính tất yếu của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là do hai xã hội khác nhau về bản chất. Đó là:",
       "options": {
         "A": "Chế độ sở hữu.",
@@ -3568,20 +3074,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 275,
-      "question": "Tính tất yếu của thời kỳ quá độ là do cần phải có thời gian để xây dựng và phát triển các quan hệ xã hội của xã hội chủ nghĩa, vì trong lòng chủ nghĩa tư bản các quan hệ đó:",
-      "options": {
-        "A": "Chế độ chiếm hữu nô lệ",
-        "B": "Chủ nghĩa tư bản nhà nước",
-        "C": "Chỉ là mầm mống.",
-        "D": "Chế độ phong kiến tập quyền"
-      },
-      "correct_answer": "C",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 276,
+      "id": 237,
       "question": "Tính chất lịch sử của tôn giáo thể hiện ở điểm nào?",
       "options": {
         "A": "Tôn giáo có sự hình thành, phát triển và sẽ biến mất khi các điều kiện tồn tại của nó không còn.",
@@ -3594,7 +3087,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 277,
+      "id": 238,
       "question": "Tính quần chúng của tôn giáo thể hiện ở chỗ:",
       "options": {
         "A": "Tôn giáo là nơi sinh hoạt văn hóa tinh thần của đông đảo quần chúng nhân dân.",
@@ -3607,7 +3100,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 278,
+      "id": 239,
       "question": "Nguồn gốc nhận thức của tôn giáo là gì?",
       "options": {
         "A": "Nhận thức của con người về tự nhiên và xã hội còn hạn chế, tuyệt đối hóa mặt chủ quan.",
@@ -3620,20 +3113,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 279,
-      "question": "Chủ nghĩa Mác – Lê nin và hệ tư tưởng tôn giáo khác nhau ở điểm nào?",
-      "options": {
-        "A": "Khác nhau về thế giới quan.",
-        "B": "Cả a,b,c đều đúng.",
-        "C": "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân.",
-        "D": "Khác nhau về nhân sinh quan."
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 280,
+      "id": 240,
       "question": "Phân biệt hai mặt chính trị và tư tưởng trong giải quyết vấn đề tôn giáo nhằm mục đích gì?",
       "options": {
         "A": "Tránh cực đoan: không quy mọi tín đồ thành kẻ thù chính trị và không buông lỏng cảnh giác với kẻ lợi dụng tôn giáo.",
@@ -3646,7 +3126,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 281,
+      "id": 241,
       "question": "Một trong những yếu tố tạo nên sự đoàn kết dân tộc ở Việt Nam là gì?",
       "options": {
         "A": "Truyền thống yêu nước và lịch sử chung sức chống ngoại xâm, thiên tai.",
@@ -3659,20 +3139,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 282,
-      "question": "Có những nguyên tắc của tôn gíao còn phù hợp với chủ nghĩa xã hội, đáp ứng được nhu cầu, có sức thu hút đối với một bộ phận nhân dân là nguyên nhân gì của sự tồn tại tôn giáo?",
-      "options": {
-        "A": "Chế độ chiếm hữu nô lệ",
-        "B": "Chủ nghĩa tư bản tự do cạnh tranh",
-        "C": "Chủ nghĩa tư bản nhà nước",
-        "D": "Đạo đức."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 283,
+      "id": 242,
       "question": "Nhà tư tưởng xã hội chủ nghĩa Xanh Ximông đã đề cập đến nội dung nào sau đây?",
       "options": {
         "A": "Chủ nghĩa tư bản nhà nước",
@@ -3685,7 +3152,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 284,
+      "id": 243,
       "question": "Học thuyết Tiến hoá; Định luật Bảo toàn và chuyển hoá năng lượng và Học thuyết Tế bào được xem là cơ sở khoa học cho sự ra đời của học thuyết nào?",
       "options": {
         "A": "Duy trì chế độ phân hóa giàu nghèo",
@@ -3698,7 +3165,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 285,
+      "id": 244,
       "question": "Nội dung quan trọng nhất trong việc thực hiện quyền bình đẳng dân tộc ở Việt Nam là:",
       "options": {
         "A": "Đảm bảo bình đẳng về chính trị, kinh tế, văn hóa, xã hội giữa các dân tộc.",
@@ -3711,7 +3178,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 286,
+      "id": 245,
       "question": "Học thuyết nào của C.Mác và Ph.Ănghen bàn về “hình thái kinh tế - xã hội” và chỉ ra bản chất của sự vận động, phát triển xã hội loài người?",
       "options": {
         "A": "Thủ công nghiệp gia đình",
@@ -3724,7 +3191,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 287,
+      "id": 246,
       "question": "Học thuyết nào của C.Mác và Ph.Ănghen đã khắc phục một cách triệt để những hạn chế có tính lịch sử của chủ nghĩa xã hội không tưởng – phê phán?",
       "options": {
         "A": "Chủ nghĩa tư bản tự do cạnh tranh",
@@ -3737,7 +3204,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 288,
+      "id": 247,
       "question": "Hãy chọn phương án đúng nhất về cơ cấu xã hội - giai cấp?",
       "options": {
         "A": "Giai cấp tư sản",
@@ -3750,7 +3217,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 289,
+      "id": 248,
       "question": "Yếu tố nào quyết định sự liên minh các giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội?",
       "options": {
         "A": "Tầng lớp tiểu tư sản",
@@ -3763,7 +3230,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 290,
+      "id": 249,
       "question": "Theo C.Mác và Ph.Ăngghen, “những người bạn đồng minh tự nhiên” của giai cấp công nhân là ai?",
       "options": {
         "A": "Giai cấp nông dân.",
@@ -3776,7 +3243,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 291,
+      "id": 250,
       "question": "Hãy chọn phương án sai về nội dung chính trị của liên minh các giai cấp, tầng lớp ở Việt Nam hiện nay?",
       "options": {
         "A": "Giai cấp phong kiến",
@@ -3789,33 +3256,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 292,
-      "question": "Nguyên nhân để xu hướng phát triển cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ mang tính đa dạng và thống nhất là do:",
-      "options": {
-        "A": "Tầng lớp tiểu tư sản",
-        "B": "Giai cấp nông dân",
-        "C": "Giai cấp phong kiến",
-        "D": "Nền kinh tế nhiều thành phần."
-      },
-      "correct_answer": "D",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 293,
-      "question": "Sự biến đổi cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội ngoài mang tính đặc thù còn mang đặc điểm gì khác?",
-      "options": {
-        "A": "Tầng lớp tiểu tư sản",
-        "B": "Tính quy luật phổ biến.",
-        "C": "Tầng lớp thương nhân",
-        "D": "Giai cấp phong kiến"
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 294,
+      "id": 251,
       "question": "Thực chất của việc giải quyết vấn đề tôn giáo trong thời kỳ quá độ là gì?",
       "options": {
         "A": "Khắc phục dần những ảnh hưởng tiêu cực của tôn giáo gắn liền với cải tạo xã hội cũ, xây dựng xã hội mới.",
@@ -3828,7 +3269,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 295,
+      "id": 252,
       "question": "Thế giời quan tôn giáo khác thế giới quan Mác - Lênin ở điểm căn bản nào?",
       "options": {
         "A": "Thế giới quan tôn giáo là duy tâm, thế giới quan Mác - Lênin là duy vật phiếm thần/duy vật duy sinh.",
@@ -3841,7 +3282,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 296,
+      "id": 253,
       "question": "Tại sao gia đình là một hình thức cộng đồng xã hội đặc biệt?",
       "options": {
         "A": "Là tổ ấm, mang lại các giá trị hạnh phúc.",
@@ -3854,7 +3295,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 297,
+      "id": 254,
       "question": "Tại sao giải quyết vấn đề tôn giáo phải có quan điểm lịch sử cụ thể?",
       "options": {
         "A": "Vì vai trò và thái độ chính trị của tôn giáo thay đổi theo từng giai đoạn lịch sử.",
@@ -3867,7 +3308,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 298,
+      "id": 255,
       "question": "Để thực hiện các quan hệ cơ bản của gia đình ở Việt Nam hiện nay cần phải tuân thủ nguyên tắc nào?",
       "options": {
         "A": "Khuyến khích tích tụ tư bản tư nhân",
@@ -3880,20 +3321,7 @@
       "chapter_id": "c6"
     },
     {
-      "id": 299,
-      "question": "Sự biến đổi chủ yếu của chức năng kinh tế, tổ chức tiêu dùng trong gia đình Việt Nam hiện nay là gì?",
-      "options": {
-        "A": "Sản xuất hàng hóa nhỏ",
-        "B": "Từ kinh tế tự túc, tự cấp sang kinh tế hàng hoá.\n====================================================",
-        "C": "Kinh tế tự nhiên tự cấp tự túc",
-        "D": "Thủ công nghiệp gia đình"
-      },
-      "correct_answer": "B",
-      "explanation": "",
-      "chapter_id": "c6"
-    },
-    {
-      "id": 300,
+      "id": 256,
       "question": "Nội dung cốt lõi của việc xây dựng nền văn hóa xã hội chủ nghĩa là gì?",
       "options": {
         "A": "Xây dựng con người mới xã hội chủ nghĩa phát triển toàn diện.",

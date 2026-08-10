@@ -123,8 +123,18 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const response = await fetch('data/cnxhkh_vhu.json');
       if (!response.ok) throw new Error('Không thể tải dữ liệu câu hỏi');
-      const data = await response.json();
       state.allQuestions = data.questions || [];
+      
+      // Sanitize stored answers and wrong bookmarks if dataset size changed
+      const maxId = state.allQuestions.length;
+      Object.keys(state.userAnswers).forEach(idKey => {
+        if (parseInt(idKey) > maxId) {
+          delete state.userAnswers[idKey];
+        }
+      });
+      state.wrongQuestions = new Set(Array.from(state.wrongQuestions).filter(id => id <= maxId));
+      saveUserAnswers();
+      saveWrongQuestions();
       
       // Sync UI elements with loaded state
       els.chapterSelect.value = state.chapterFilter;
