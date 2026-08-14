@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const response = await fetch('data/cnxhkh_vhu.json');
       if (!response.ok) throw new Error('Không thể tải dữ liệu câu hỏi');
+      const data = await response.json();
       state.allQuestions = data.questions || [];
       
       // Sanitize stored answers and wrong bookmarks if dataset size changed
