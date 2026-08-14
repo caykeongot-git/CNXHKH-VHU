@@ -134,8 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
       state.wrongQuestions = new Set(Array.from(state.wrongQuestions).filter(id => id <= maxId));
-      saveUserAnswers();
-      saveWrongQuestions();
+      saveLocalStorageData();
       
       // Sync UI elements with loaded state
       els.chapterSelect.value = state.chapterFilter;
